@@ -18,8 +18,9 @@ dictionary = {
   'atad': ['atad-esqueci-minha-senha-java', 'atad-liveness-servicos-java']
 }
 
+forbidden_projects = []
+
 for key in dictionary:
-  # groups = gl.groups.get(key)
   project_names = dictionary.get(key)
 
   for name in project_names:

@@ -1,0 +1,868 @@
+Sigla_Pod,PODs,Gestor_1
+apio,apio-boletos-parceiro-java-5f97f68bb6-7r7jl,Fernanda Passos
+apio,apio-boletos-parceiro-java-5f97f68bb6-zmzrh,Fernanda Passos
+apio,apio-campanha-consentimento-java-599845cb49-94kdz,Fernanda Passos
+apio,apio-campanha-consentimento-java-599845cb49-9ct59,Fernanda Passos
+apio,apio-canal-abertura-cadastro-java-9-cvrpq,Fernanda Passos
+apio,apio-canal-abertura-cadastro-java-9-vnjhl,Fernanda Passos
+apio,apio-canal-aditamento-nao-correntista-java-58f5f8f57c-2lhxw,Fernanda Passos
+apio,apio-canal-aditamento-nao-correntista-java-58f5f8f57c-86n57,Fernanda Passos
+apio,apio-canal-cartao-pre-pago-virtual-java-4-2d6xd,Fernanda Passos
+apio,apio-canal-cartao-pre-pago-virtual-java-4-vtl27,Fernanda Passos
+apio,apio-canal-clientes-java-666bdd5477-bwjlm,Fernanda Passos
+apio,apio-canal-clientes-java-666bdd5477-dpzv6,Fernanda Passos
+apio,apio-canal-consultar-contratos-emprestimos-java-3-5wmq5,Fernanda Passos
+apio,apio-canal-consultar-contratos-emprestimos-java-3-lgffk,Fernanda Passos
+apio,apio-canal-extratos-parceiro-java-6668bc75fd-2prf2,Fernanda Passos
+apio,apio-canal-extratos-parceiro-java-6668bc75fd-p7fb6,Fernanda Passos
+apio,apio-canal-gerador-pagamento-fatura-java-1-c5ftd,Fernanda Passos
+apio,apio-canal-gerador-pagamento-fatura-java-1-kb75k,Fernanda Passos
+apio,apio-canal-manifestacao-lgpd-java-4-29tzc,Fernanda Passos
+apio,apio-canal-manifestacao-lgpd-java-4-pnhzf,Fernanda Passos
+apio,apio-canal-pagamentos-pix-java-7-dzh2b,Fernanda Passos
+apio,apio-canal-pagamentos-pix-java-7-ht2zd,Fernanda Passos
+apio,apio-canal-pagamentos-pix-java-7-mjv6q,Fernanda Passos
+apio,apio-canal-pagamentos-pix-java-7-mrskn,Fernanda Passos
+apio,apio-canal-pagamentos-pix-java-7-nsjfc,Fernanda Passos
+apio,apio-canal-pagamentos-pix-java-7-prfdb,Fernanda Passos
+apio,apio-canal-pagamentos-pix-java-7-txzgf,Fernanda Passos
+apio,apio-canal-pagamentos-pix-java-7-xz6bp,Fernanda Passos
+apio,apio-canal-renovacao-emprestimo-java-3-9rkh9,Fernanda Passos
+apio,apio-canal-renovacao-emprestimo-java-3-r7bmw,Fernanda Passos
+apio,apio-canal-saque-digital-java-6fcf469cdf-jsfxg,Fernanda Passos
+apio,apio-canal-saque-digital-java-6fcf469cdf-xbhpd,Fernanda Passos
+apio,apio-consultas-debito-automatico-java-bd7fcd849-tdwxd,Fernanda Passos
+apio,apio-consultas-debito-automatico-java-bd7fcd849-vkkdf,Fernanda Passos
+apio,apio-qr-code-java-c6699495b-59nnw,Fernanda Passos
+apio,apio-qr-code-java-c6699495b-gvhlp,Fernanda Passos
+apio,apio-retorno-recebiveis-java-11-jmdct,Fernanda Passos
+apio,apio-retorno-recebiveis-java-11-mv8kp,Fernanda Passos
+apio,apio-retorno-recebiveis-java-11-r7kvs,Fernanda Passos
+apio,apio-solicitacao-cartao-java-7b45cf8f79-jsxhg,Fernanda Passos
+apio,apio-solicitacao-cartao-java-7b45cf8f79-xxx9l,Fernanda Passos
+apoc,apoc-topaz-java-4-v7cvn,Anderson Ciprino
+apoc,apoc-topaz-java-4-x24d6,Anderson Ciprino
+atad,atad-esqueci-minha-senha-java-2-6g9vx,Fernando Reis
+atad,atad-esqueci-minha-senha-java-2-xmv29,Fernando Reis
+atad,atad-liveness-servicos-java-6974c5498f-f8pw5,Fernando Reis
+atad,atad-liveness-servicos-java-6974c5498f-lrbdk,Fernando Reis
+atad,atad-liveness-servicos-java-green-5796d4df68-ffhww,Fernando Reis
+atad,atad-liveness-servicos-java-green-5796d4df68-t2tm5,Fernando Reis
+atad,atad-score-liveness-java-685bfd594c-hmgfn,Fernando Reis
+atad,atad-score-liveness-java-685bfd594c-q9n5j,Fernando Reis
+atad,atad-validacao-posse-dados-java-10-4fj8k,Fernando Reis
+atad,atad-validacao-posse-dados-java-10-5nfzs,Fernando Reis
+atad,atad-validacao-posse-dados-java-10-82kvv,Fernando Reis
+atad,atad-validacao-posse-dados-java-10-gx67v,Fernando Reis
+atad,atad-validacao-posse-dados-java-10-lvmkq,Fernando Reis
+atcl,atcl-auth-corporate-java-17-pbjcg,Fernando Reis
+atcl,atcl-auth-corporate-java-17-rsms7,Fernando Reis
+atcl,atcl-auth-jwt-java-6f494d7d8b-zw9fs,Fernando Reis
+atcl,atcl-esqueci-minha-senha-java-23-2z72p,Fernando Reis
+atcl,atcl-esqueci-minha-senha-java-23-gsxph,Fernando Reis
+atcl,atcl-esqueci-minha-senha-java-23-jpt7b,Fernando Reis
+atcl,atcl-esqueci-minha-senha-java-23-xpgzg,Fernando Reis
+atcl,atcl-perfilamento-java-15-8djp8,Fernando Reis
+atcl,atcl-perfilamento-java-15-dq8m7,Fernando Reis
+atcl,atcl-perfilamento-java-15-nrrch,Fernando Reis
+atcl,atcl-servicos-java-78fcb8db76-78nhr,Fernando Reis
+atcl,atcl-servicos-java-78fcb8db76-8kzqc,Fernando Reis
+atco,atco-auth-sistemas-java-19-d8l7v,Fernando Reis
+atco,atco-auth-sistemas-java-19-jkzt9,Fernando Reis
+atkn,atkn-verificacoes-java-6b9fb64d7f-qwmbp,Fernando Reis
+ator,ator-gestao-chat-java-6dd97f6478-cb5pp,Felipe Ono
+ator,ator-protocolos-java-68-rhvp4,Felipe Ono
+autr,autr-manutencao-cartoes-java-5-ldwbf,Walter Buga Ramos
+autr,autr-verifica-senha-cartao-java-8-hvlcg,Walter Buga Ramos
+bimo,bimo-apto-credito-java-1-c7qd6,Marcos Barbosa/Claudia Yamamoto
+bimo,bimo-apto-credito-java-1-rrc2h,Marcos Barbosa/Claudia Yamamoto
+bimo,bimo-bureau-boa-vista-java-1-895nf,Marcos Barbosa/Claudia Yamamoto
+bimo,bimo-bureau-boa-vista-java-1-vkmwr,Marcos Barbosa/Claudia Yamamoto
+bimo,bimo-bureau-ph3a-java-4-2jdvx,Marcos Barbosa/Claudia Yamamoto
+bimo,bimo-bureau-ph3a-java-4-rjxv4,Marcos Barbosa/Claudia Yamamoto
+bimo,bimo-validacao-base-java-9-h8lsj,Marcos Barbosa/Claudia Yamamoto
+bimo,bimo-validacao-base-java-9-qh7zt,Marcos Barbosa/Claudia Yamamoto
+bpmo,bpmo-ativacao-bens-cmm-java-8667cdd4f4-4zrfb,Muricio Porto
+bpmo,bpmo-callback-pf-java-3-pvgkq,Muricio Porto
+bpmo,bpmo-incluir-cotitular-java-11-gj6gr,Muricio Porto
+bpmo,bpmo-incluir-cotitular-java-11-m7sq8,Muricio Porto
+bpmo,bpmo-servicos-ativacao-java-green-7b65d5c86-bnwf8,Muricio Porto
+bpmo,bpmo-servicos-ativacao-java-green-7b65d5c86-g4nm9,Muricio Porto
+cbic,cbic-boletos-autbank-consultas-java-5-4gjsr,Simone/Equipe BAAS
+cbic,cbic-boletos-autbank-consultas-java-5-n5cgb,Simone/Equipe BAAS
+cbic,cbic-boletos-autbank-java-42-6n2g5,Simone/Equipe BAAS
+cbic,cbic-boletos-autbank-java-42-clzsd,Simone/Equipe BAAS
+cbic,cbic-boletos-callback-parceiro-java-b8f555f64-6779r,Simone/Equipe BAAS
+cbic,cbic-boletos-callback-parceiro-java-b8f555f64-qxvpt,Simone/Equipe BAAS
+cbic,cbic-boletos-java-11-9xj4q,Simone/Equipe BAAS
+cdps,cdps-atualizar-contato-cadastro-java-3-6jchq,Fernanda Passos
+cdps,cdps-atualizar-dados-conjuge-java-2-mkx2z,Fernanda Passos
+cdps,cdps-atualizar-dados-conjuge-java-2-z4lbd,Fernanda Passos
+cdps,cdps-atualizar-dados-empregador-java-3-6cwgk,Fernanda Passos
+cdps,cdps-atualizar-dados-empregador-java-3-6lbqq,Fernanda Passos
+cdps,cdps-bens-cadastrados-java-dc5cfb459-g2pjv,Fernanda Passos
+cdps,cdps-bens-cadastrados-java-dc5cfb459-tdb4h,Fernanda Passos
+cdps,cdps-campanhas-java-2-5b777,Fernanda Passos
+cdps,cdps-consultar-informacoes-cliente-cartao-java-10-mrpc5,Fernanda Passos
+cdps,cdps-consultar-informacoes-cliente-cartao-java-10-qqfjk,Fernanda Passos
+cdps,cdps-consultar-informacoes-cliente-cartao-java-10-vhbdk,Fernanda Passos
+cdps,cdps-consultar-informacoes-cliente-cartao-java-10-vxmgw,Fernanda Passos
+cdps,cdps-consultar-informacoes-cliente-cartao-java-10-x92qh,Fernanda Passos
+cdps,cdps-consultar-informacoes-cliente-cartao-java-10-xgbh5,Fernanda Passos
+cdps,cdps-consultar-informacoes-cliente-java-b8c946fc8-8c84d,Fernanda Passos
+cdps,cdps-consultar-informacoes-cliente-java-b8c946fc8-d5h25,Fernanda Passos
+cdps,cdps-orq-cadastro-nao-correntista-java-1-sz42m,Fernanda Passos
+cdps,cdps-produtos-java-4-gcr64,Fernanda Passos
+cdps,cdps-rendas-java-7-ns6r7,Fernanda Passos
+cdps,cdps-rendas-java-7-zp947,Fernanda Passos
+cdps,cdps-segmentos-java-6-27l6q,Fernanda Passos
+cdps,cdps-segmentos-java-6-g4l8s,Fernanda Passos
+cdps,cdps-servicos-cmm-java-1-4qtfw,Fernanda Passos
+ceno,ceno-servicos-cmm-java-11-dxr2v,Felipe Ono
+ceno,ceno-servicos-cmm-java-11-qbhl2,Felipe Ono
+ceno,ceno-servicos-cmm-java-11-vmbk8,Felipe Ono
+ceno,ceno-whatsapp-ativo-java-5c6db95745-kzdh6,Felipe Ono
+cess,cess-consulta-transacoes-java-746b85cccb-4gn8n,Alberto Yukio/Claudia Yamamoto
+cess,cess-consulta-transacoes-java-746b85cccb-f6kz4,Alberto Yukio/Claudia Yamamoto
+conv,conv-sincronizacao-tabelas-java-5-rnwss,Simone/Equipe BAAS
+cosg,cosg-cmm-rest-java-21-zfrhq,Daniel Costa Ribeiro
+cosg,cosg-cmm-rest-java-66f4c8bccc-cpmxl,Daniel Costa Ribeiro
+cosg,cosg-cmm-rest-java-66f4c8bccc-s5ddn,Daniel Costa Ribeiro
+cosg,cosg-consulta-backoffice-java-12-mvt9z,Daniel Costa Ribeiro
+cosg,cosg-consulta-backoffice-java-12-pj7gv,Daniel Costa Ribeiro
+cosg,cosg-consulta-java-green-544bfbc6b9-7ddjs,Daniel Costa Ribeiro
+cosg,cosg-consulta-java-green-544bfbc6b9-rkz4k,Daniel Costa Ribeiro
+cosg,cosg-cotacao-premio-java-6-b7xm2,Daniel Costa Ribeiro
+cosg,cosg-cotacao-premio-java-6-h5zn6,Daniel Costa Ribeiro
+cosg,cosg-efetivacao-java-5-sw4bb,Daniel Costa Ribeiro
+cosg,cosg-efetivacao-java-5-xzkgc,Daniel Costa Ribeiro
+cosg,cosg-motor-calculo-java-1-gngkt,Daniel Costa Ribeiro
+cosg,cosg-motor-calculo-java-1-w29qr,Daniel Costa Ribeiro
+cosg,cosg-produto-java-2-c6shf,Daniel Costa Ribeiro
+cosg,cosg-produto-java-2-gmkj5,Daniel Costa Ribeiro
+cosg,cosg-template-java-6-59wcm,Daniel Costa Ribeiro
+crpl,crpl-dominios-java-5d576f9fb5-fl75g,Juliano Tymos Hernani
+crpl,crpl-dominios-java-5d576f9fb5-tj4wt,Juliano Tymos Hernani
+crpl,crpl-operacoes-clientes-java-694895d84f-8nq7d,Juliano Tymos Hernani
+crpl,crpl-operacoes-clientes-java-694895d84f-rnx6l,Juliano Tymos Hernani
+crpl,crpl-operacoes-renegociacao-java-f7988895c-fzkwt,Juliano Tymos Hernani
+crpl,crpl-operacoes-renegociacao-java-f7988895c-l9dzl,Juliano Tymos Hernani
+ctas,ctas-cmm-rest-java-59-2wpl6,Fernanda Passos
+ctas,ctas-cmm-rest-java-59-6pdj9,Fernanda Passos
+ctas,ctas-cmm-rest-java-c5b9d8df5-cvgmn,Fernanda Passos
+ctas,ctas-cmm-rest-java-c5b9d8df5-rm4tb,Fernanda Passos
+ctas,ctas-consulta-bloqueio-transacional-java-5c766765db-4flvp,Fernanda Passos
+ctas,ctas-consulta-bloqueio-transacional-java-5c766765db-8lmd7,Fernanda Passos
+ctas,ctas-consulta-lancamentos-java-74f95d46c4-9xkxw,Fernanda Passos
+ctas,ctas-consulta-lancamentos-java-74f95d46c4-vvt7k,Fernanda Passos
+ctas,ctas-consultas-id-fisico-java-7bfb865b6-4mzjx,Fernanda Passos
+ctas,ctas-consultas-id-fisico-java-7bfb865b6-5vg26,Fernanda Passos
+ctas,ctas-consultas-id-fisico-java-7bfb865b6-zxwnh,Fernanda Passos
+ctas,ctas-consumidor-encerramento-contas-irregulares-java-557944t94p,Fernanda Passos
+ctas,ctas-credito-imediato-java-5d76d8ffdb-4vnf2,Fernanda Passos
+ctas,ctas-credito-imediato-java-5d76d8ffdb-cqnxc,Fernanda Passos
+ctas,ctas-efetivar-credito-java-5d5f56788-f95v4,Fernanda Passos
+ctas,ctas-efetivar-debito-java-7b98fbcdf7-59cqs,Fernanda Passos
+ctas,ctas-efetivar-debito-java-7b98fbcdf7-6m5gs,Fernanda Passos
+ctas,ctas-efetivar-debito-java-7b98fbcdf7-gcpp8,Fernanda Passos
+ctas,ctas-efetivar-debito-java-7b98fbcdf7-hn6lz,Fernanda Passos
+ctas,ctas-efetivar-debito-java-7b98fbcdf7-zrpbf,Fernanda Passos
+ctas,ctas-efetivar-debito-java-7b98fbcdf7-zrpvx,Fernanda Passos
+ctas,ctas-extratos-java-6dbd77d696-cqlqt,Fernanda Passos
+ctas,ctas-extratos-java-6dbd77d696-ntgr2,Fernanda Passos
+ctas,ctas-lancamentos-a-efetivar-java-754878f45c-k4d8w,Fernanda Passos
+ctas,ctas-lancamentos-a-efetivar-java-754878f45c-m9j4l,Fernanda Passos
+ctas,ctas-orquestrador-transacoes-java-85ddbf844d-2knkd,Fernanda Passos
+ctas,ctas-orquestrador-transacoes-java-85ddbf844d-6gj8x,Fernanda Passos
+ctas,ctas-orquestrador-transacoes-java-85ddbf844d-gdmdj,Fernanda Passos
+ctas,ctas-orquestrador-transacoes-java-85ddbf844d-lfnzr,Fernanda Passos
+ctas,ctas-saldo-java-d79dcd766-lb9ml,Fernanda Passos
+ctas,ctas-saldo-java-d79dcd766-mw7sc,Fernanda Passos
+ctas,ctas-saldo-java-d79dcd766-rgpq6,Fernanda Passos
+ctas,ctas-saldo-java-d79dcd766-vrlxn,Fernanda Passos
+ctas,ctas-sincronizacao-tabelas-java-2-9t6pw,Fernanda Passos
+ctas,ctas-status-lancamentos-efetivar-java-1-wxrvc,Fernanda Passos
+ctas,ctas-validacoes-java-557dc45fd8-hsdsz,Fernanda Passos
+ctas,ctas-validar-aptidao-transacao-conta-java-7477fd459b-9569t,Fernanda Passos
+ctas,ctas-validar-aptidao-transacao-conta-java-7477fd459b-rntx9,Fernanda Passos
+ctas,ctas-validar-aptidao-transacao-conta-java-7477fd459b-zv2nd,Fernanda Passos
+ctcr,ctcr-canal-notificacao-java-6-ll8gh,Rene Gonsalves
+ctcr,ctcr-canal-notificacao-java-6-xht7v,Rene Gonsalves
+ctcr,ctcr-cartao-virtual-bridge-java-68f85ddd84-lw6zn,Rene Gonsalves
+ctcr,ctcr-cartao-virtual-bridge-java-68f85ddd84-tzzkj,Rene Gonsalves
+ctcr,ctcr-cartao-virtual-java-f7b7b4d9b-6k9kb,Rene Gonsalves
+ctcr,ctcr-cartao-virtual-java-f7b7b4d9b-ckmz9,Rene Gonsalves
+ctcr,ctcr-carteira-digital-bridge-java-79f697999b-vz48q,Rene Gonsalves
+ctcr,ctcr-carteira-digital-bridge-java-79f697999b-zmhr2,Rene Gonsalves
+ctcr,ctcr-carteira-digital-java-68dcdfb64b-64p5h,Rene Gonsalves
+ctcr,ctcr-carteira-digital-java-68dcdfb64b-hm2v7,Rene Gonsalves
+ctcr,ctcr-cmm-rest-java-7bfdcffcf7-5j5gn,Rene Gonsalves
+ctcr,ctcr-cmm-rest-java-7bfdcffcf7-8lfmv,Rene Gonsalves
+ctcr,ctcr-comprovantes-java-2-lnrkj,Rene Gonsalves
+ctcr,ctcr-consulta-cartao-bridge-java-5444d45646-sdnkm,Rene Gonsalves
+ctcr,ctcr-consulta-cartoes-java-6bfbf97cfb-2k8p4,Rene Gonsalves
+ctcr,ctcr-consulta-cartoes-java-6bfbf97cfb-6tgn2,Rene Gonsalves
+ctcr,ctcr-consulta-cartoes-java-6bfbf97cfb-7vn6x,Rene Gonsalves
+ctcr,ctcr-consulta-cartoes-java-6bfbf97cfb-7xgjs,Rene Gonsalves
+ctcr,ctcr-consulta-cartoes-java-6bfbf97cfb-8mkvd,Rene Gonsalves
+ctcr,ctcr-consulta-cartoes-java-6bfbf97cfb-x47tm,Rene Gonsalves
+ctcr,ctcr-consultar-cartao-processadora-java-13-8wbnm,Rene Gonsalves
+ctcr,ctcr-consultar-cartao-processadora-java-13-cxdhx,Rene Gonsalves
+ctcr,ctcr-consultar-cartao-processadora-java-13-dscf9,Rene Gonsalves
+ctcr,ctcr-consultar-cartao-processadora-java-13-lb2cr,Rene Gonsalves
+ctcr,ctcr-consultar-cartao-processadora-java-13-srn8q,Rene Gonsalves
+ctcr,ctcr-consultar-cartao-processadora-java-13-xf6gf,Rene Gonsalves
+ctcr,ctcr-consultar-cartao-processadora-java-13-zd6ms,Rene Gonsalves
+ctcr,ctcr-consultas-conta-cartao-java-5d5cf84fd9-7f9rm,Rene Gonsalves
+ctcr,ctcr-consultas-conta-cartao-java-5d5cf84fd9-jnq6h,Rene Gonsalves
+ctcr,ctcr-consultas-processadora-java-49-9dk2g,Rene Gonsalves
+ctcr,ctcr-consultas-processadora-java-49-9l6nx,Rene Gonsalves
+ctcr,ctcr-consultas-processadora-java-49-cvxp6,Rene Gonsalves
+ctcr,ctcr-consultas-processadora-java-49-sws4z,Rene Gonsalves
+ctcr,ctcr-consultas-processadora-java-49-w5l4n,Rene Gonsalves
+ctcr,ctcr-consultas-processadora-java-49-xrknd,Rene Gonsalves
+ctcr,ctcr-consultas-processadora-java-49-xz9q8,Rene Gonsalves
+ctcr,ctcr-consumidor-pix-recebido-java-10-wrtk9,Rene Gonsalves
+ctcr,ctcr-consumidor-solicitar-cartao-java-4-7wz7d,Rene Gonsalves
+ctcr,ctcr-consumidor-solicitar-cartao-java-4-82544,Rene Gonsalves
+ctcr,ctcr-consumidor-status-cartoes-java-85d9d88786-hkd2p,Rene Gonsalves
+ctcr,ctcr-consumidor-status-cartoes-java-85d9d88786-krvtx,Rene Gonsalves
+ctcr,ctcr-contas-java-75b6c7c94d-7xqx6,Rene Gonsalves
+ctcr,ctcr-contestacao-java-9-rmzfw,Rene Gonsalves
+ctcr,ctcr-contestacao-java-9-x5f5c,Rene Gonsalves
+ctcr,ctcr-fatura-bridge-java-8b45f946c-2vphs,Rene Gonsalves
+ctcr,ctcr-fatura-bridge-java-8b45f946c-gs7l7,Rene Gonsalves
+ctcr,ctcr-fatura-bridge-java-8b45f946c-k6ngh,Rene Gonsalves
+ctcr,ctcr-fatura-bridge-java-8b45f946c-zx7rs,Rene Gonsalves
+ctcr,ctcr-fatura-cartoes-java-5db4c74889-bjfzs,Rene Gonsalves
+ctcr,ctcr-fatura-cartoes-java-5db4c74889-mv8sq,Rene Gonsalves
+ctcr,ctcr-fatura-cartoes-java-5db4c74889-qdrzh,Rene Gonsalves
+ctcr,ctcr-fatura-cartoes-java-5db4c74889-spns8,Rene Gonsalves
+ctcr,ctcr-gerador-pagamento-faturas-java-5-ktmsd,Rene Gonsalves
+ctcr,ctcr-gerador-pagamento-faturas-java-5-z4hv9,Rene Gonsalves
+ctcr,ctcr-informacoes-openfinance-java-866cc76dd9-7c9vz,Rene Gonsalves
+ctcr,ctcr-informacoes-openfinance-java-866cc76dd9-9r2r2,Rene Gonsalves
+ctcr,ctcr-limites-java-8-f2z8b,Rene Gonsalves
+ctcr,ctcr-limites-java-8-fdzl2,Rene Gonsalves
+ctcr,ctcr-limites-java-8-r6nq7,Rene Gonsalves
+ctcr,ctcr-limites-java-8-zm4p7,Rene Gonsalves
+ctcr,ctcr-manutencao-bridge-java-64d9dccd5f-2xdwm,Rene Gonsalves
+ctcr,ctcr-manutencao-bridge-java-64d9dccd5f-94ftx,Rene Gonsalves
+ctcr,ctcr-manutencao-java-57c464d7d-mvrzp,Rene Gonsalves
+ctcr,ctcr-manutencao-java-57c464d7d-nmlfv,Rene Gonsalves
+ctcr,ctcr-notificacao-java-9-dm694,Rene Gonsalves
+ctcr,ctcr-notificacao-java-9-wdmls,Rene Gonsalves
+ctcr,ctcr-ofertar-produtos-java-10-56mpc,Rene Gonsalves
+ctcr,ctcr-ofertar-produtos-java-10-5vq6q,Rene Gonsalves
+ctcr,ctcr-operacoes-processadora-java-16-8jlbm,Rene Gonsalves
+ctcr,ctcr-operacoes-processadora-java-16-vpv9d,Rene Gonsalves
+ctcr,ctcr-operacoes-renegociacao-java-6c896bddf8-5wnhm,Rene Gonsalves
+ctcr,ctcr-operacoes-renegociacao-java-6c896bddf8-cbjw5,Rene Gonsalves
+ctcr,ctcr-operacoes-renegociacao-java-6c896bddf8-cgggl,Rene Gonsalves
+ctcr,ctcr-operacoes-renegociacao-java-6c896bddf8-w7k78,Rene Gonsalves
+ctcr,ctcr-orq-credito-java-65d79f89b-kd9x2,Rene Gonsalves
+ctcr,ctcr-orq-credito-java-65d79f89b-r8drj,Rene Gonsalves
+ctcr,ctcr-orq-fatura-cartoes-java-56b5989b6d-kchfh,Rene Gonsalves
+ctcr,ctcr-orq-fatura-cartoes-java-56b5989b6d-vdbs4,Rene Gonsalves
+ctcr,ctcr-pagamento-boletos-java-3-26j66,Rene Gonsalves
+ctcr,ctcr-pagamento-boletos-java-3-b92sz,Rene Gonsalves
+ctcr,ctcr-pagamento-fatura-bridge-java-58469f695b-nfjmz,Rene Gonsalves
+ctcr,ctcr-pagamento-fatura-bridge-java-58469f695b-nxglf,Rene Gonsalves
+ctcr,ctcr-parcelamento-fatura-java-1-2k4h8,Rene Gonsalves
+ctcr,ctcr-parcelamento-fatura-java-1-hsq6f,Rene Gonsalves
+ctcr,ctcr-parcelamento-fatura-java-1-xk2w8,Rene Gonsalves
+ctcr,ctcr-parcelamento-fatura-java-1-xl9cl,Rene Gonsalves
+ctcr,ctcr-pre-pago-virtual-java-2-7g4v6,Rene Gonsalves
+ctcr,ctcr-pre-pago-virtual-java-2-xcnd7,Rene Gonsalves
+ctcr,ctcr-produtos-java-2-5xbc5,Rene Gonsalves
+ctcr,ctcr-produtos-java-2-vwjp7,Rene Gonsalves
+ctcr,ctcr-renegociacao-cartoes-java-5d96bcf98d-k27r4,Rene Gonsalves
+ctcr,ctcr-renegociacao-cartoes-java-5d96bcf98d-rzwlk,Rene Gonsalves
+ctcr,ctcr-transacao-conta-java-1-lpf82,Rene Gonsalves
+ctcr,ctcr-transacao-conta-java-1-pj4b5,Rene Gonsalves
+ctpl,ctpl-consumidor-pix-recebido-java-4-5927t,Rene Gonsalves
+ctpl,ctpl-consumidor-pix-recebido-java-4-j9mn4,Rene Gonsalves
+ctpl,ctpl-gerador-pagamento-fatura-java-5-7fm25,Rene Gonsalves
+ctpl,ctpl-gerador-pagamento-fatura-java-5-j77xc,Rene Gonsalves
+ctpl,ctpl-renegociacao-cartoes-java-5-2665b,Rene Gonsalves
+ctpl,ctpl-renegociacao-cartoes-java-5-94x8j,Rene Gonsalves
+ctpl,ctpl-renegociacao-cartoes-java-5-nbk5c,Rene Gonsalves
+ctpl,ctpl-renegociacao-cartoes-java-5-q7572,Rene Gonsalves
+ctpl,ctpl-transacoes-cartao-java-cf95f5fbd-csr5w,Rene Gonsalves
+ctpl,ctpl-transacoes-cartao-java-cf95f5fbd-wzj9h,Rene Gonsalves
+depb,depb-deposito-boleto-java-15-2dwqg,Simone/Equipe BAAS
+depb,depb-deposito-boleto-java-15-2fnfd,Simone/Equipe BAAS
+empc,empc-boleto-sicred-java-green-5644968d57-5gn88,Marcelo Mendes Radaic
+empc,empc-boleto-sicred-java-green-5644968d57-kn6kg,Marcelo Mendes Radaic
+empc,empc-canal-emprestimo-java-7b9b578554-8fbsk,Marcelo Mendes Radaic
+empc,empc-canal-emprestimo-java-7b9b578554-wmjmk,Marcelo Mendes Radaic
+empc,empc-consulta-emprestimo-parcelado-java-f555f4f67-ls7xw,Marcelo Mendes Radaic
+empc,empc-consulta-emprestimo-parcelado-java-f555f4f67-zl625,Marcelo Mendes Radaic
+empc,empc-consulta-sicred-java-56d7cf957c-2j7rh,Marcelo Mendes Radaic
+empc,empc-consulta-sicred-java-56d7cf957c-dn5t7,Marcelo Mendes Radaic
+empc,empc-consumidor-estorno-pagamento-java-7d7bb9964-m2lmn,Marcelo Mendes Radaic
+empc,empc-consumidor-estorno-pagamento-java-7d7bb9964-zfcps,Marcelo Mendes Radaic
+empc,empc-consumidor-gerador-documentos-java-667b5c7986-jm5xz,Marcelo Mendes Radaic
+empc,empc-consumidor-gerador-documentos-java-667b5c7986-smqmq,Marcelo Mendes Radaic
+empc,empc-contratacao-sicred-java-6c7fb46f87-2m42l,Marcelo Mendes Radaic
+empc,empc-contratacao-sicred-java-6c7fb46f87-sjtdp,Marcelo Mendes Radaic
+empc,empc-orq-contratacao-bnpl-java-6959fff9cb-ktv74,Marcelo Mendes Radaic
+empc,empc-orq-contratacao-bnpl-java-6959fff9cb-t8svb,Marcelo Mendes Radaic
+empc,empc-orq-contratacao-java-588d795dd5-7mwz9,Marcelo Mendes Radaic
+empc,empc-orq-contratacao-java-588d795dd5-d8ckx,Marcelo Mendes Radaic
+empc,empc-orq-pagamento-parcelado-java-74cdc746dc-lkr42,Marcelo Mendes Radaic
+empc,empc-orq-pagamento-parcelado-java-74cdc746dc-n8pj4,Marcelo Mendes Radaic
+empc,empc-orq-simulacao-bnpl-java-7b4599655-b2z28,Marcelo Mendes Radaic
+empc,empc-orq-simulacao-bnpl-java-7b4599655-q5lfm,Marcelo Mendes Radaic
+empc,empc-pagamento-sicred-java-778fd7cc4d-bpbwg,Marcelo Mendes Radaic
+empc,empc-pagamento-sicred-java-778fd7cc4d-zkbl2,Marcelo Mendes Radaic
+empc,empc-parametrizacao-perfis-java-557c5c55b-ldpt4,Marcelo Mendes Radaic
+empc,empc-parametrizacao-perfis-java-557c5c55b-zbjld,Marcelo Mendes Radaic
+empc,empc-simulacao-sicred-java-7cc4f77fbb-rdn87,Marcelo Mendes Radaic
+empc,empc-simulacao-sicred-java-7cc4f77fbb-xwzdc,Marcelo Mendes Radaic
+empp,empp-aditamento-java-d48ffbf64-mbg9n,Marcelo Mendes Radaic
+empp,empp-aditamento-java-d48ffbf64-z4cpv,Marcelo Mendes Radaic
+empp,empp-aditamento-nao-correntista-java-854bb4df74-s4mnt,Marcelo Mendes Radaic
+empp,empp-aditamento-nao-correntista-java-854bb4df74-xtxtb,Marcelo Mendes Radaic
+empp,empp-boletos-java-b6c97c674-92sfw,Marcelo Mendes Radaic
+empp,empp-boletos-java-b6c97c674-bsrqb,Marcelo Mendes Radaic
+empp,empp-canal-parametrizacao-perfis-java-22-8jk26,Marcelo Mendes Radaic
+empp,empp-canal-parametrizacao-perfis-java-22-b7v57,Marcelo Mendes Radaic
+empp,empp-canal-parametrizacao-perfis-java-22-b8xtm,Marcelo Mendes Radaic
+empp,empp-canal-parametrizacao-perfis-java-22-lcw4f,Marcelo Mendes Radaic
+empp,empp-canal-parceiro-consultas-java-1-cgnrg,Marcelo Mendes Radaic
+empp,empp-canal-parceiro-consultas-java-1-f8z6n,Marcelo Mendes Radaic
+empp,empp-canal-renovacao-emprestimo-java-6-8c62h,Marcelo Mendes Radaic
+empp,empp-canal-renovacao-emprestimo-java-6-jbbbp,Marcelo Mendes Radaic
+empp,empp-consulta-transacoes-java-5599487db9-gvcnj,Marcelo Mendes Radaic
+empp,empp-consulta-transacoes-java-5599487db9-whn9z,Marcelo Mendes Radaic
+empp,empp-consultas-emprestimo-correntista-java-7b94cb6586-79btj,Marcelo Mendes Radaic
+empp,empp-consumidor-aprovacao-reserva-fgts-java-59fbd79c66-4tbjn,Marcelo Mendes Radaic
+empp,empp-consumidor-conta-vinculada-java-799756c8cc-8gsmb,Marcelo Mendes Radaic
+empp,empp-consumidor-conta-vinculada-java-799756c8cc-f9czc,Marcelo Mendes Radaic
+empp,empp-consumidor-pagamentos-pix-java-7c74449895-2pdj5,Marcelo Mendes Radaic
+empp,empp-consumidor-pagamentos-pix-java-7c74449895-6bdhg,Marcelo Mendes Radaic
+empp,empp-consumidor-pagamentos-pix-java-7c74449895-fkk6p,Marcelo Mendes Radaic
+empp,empp-consumidor-pagamentos-pix-java-7c74449895-gwkn7,Marcelo Mendes Radaic
+empp,empp-consumidor-produtor-pagamentos-pix-java-7c6498f44c-h4spm,Marcelo Mendes Radaic
+empp,empp-consumidor-produtor-pagamentos-pix-java-7c6498f44c-nf85m,Marcelo Mendes Radaic
+empp,empp-consumidor-produtor-pagamentos-pix-java-7c6498f44c-t8qg6,Marcelo Mendes Radaic
+empp,empp-consumidor-retorno-contrato-recebiveis-cartoes-java-5b7x8l,Marcelo Mendes Radaic
+empp,empp-consumidor-retorno-contrato-recebiveis-cartoes-java-5n4cg6,Marcelo Mendes Radaic
+empp,empp-contratacao-core-sicred-java-8-djf8t,Marcelo Mendes Radaic
+empp,empp-contratacao-core-sicred-java-8-zgmc4,Marcelo Mendes Radaic
+empp,empp-contratacao-emprestimo-correntista-sicred-java-6544b99rfmp,Marcelo Mendes Radaic
+empp,empp-contratacao-emprestimo-correntista-sicred-java-6544b9bdgv6,Marcelo Mendes Radaic
+empp,empp-contratacao-emprestimo-correntista-sicred-java-6544b9bv8r5,Marcelo Mendes Radaic
+empp,empp-contratacao-emprestimo-correntista-sicred-java-6544b9c2qf4,Marcelo Mendes Radaic
+empp,empp-contratacao-emprestimo-correntista-sicred-java-6544b9ck8lp,Marcelo Mendes Radaic
+empp,empp-contratacao-emprestimo-correntista-sicred-java-6544b9sjpk9,Marcelo Mendes Radaic
+empp,empp-emprestimos-pessoas-fisicas-java-56fc8d76d-9684p,Marcelo Mendes Radaic
+empp,empp-estado-propostas-java-64c9548698-kq5wf,Marcelo Mendes Radaic
+empp,empp-interface-pacote-java-77b87f9d98-4zcl4,Marcelo Mendes Radaic
+empp,empp-interface-pacote-java-77b87f9d98-5hdf9,Marcelo Mendes Radaic
+empp,empp-interface-pacote-java-77b87f9d98-846vg,Marcelo Mendes Radaic
+empp,empp-interface-pacote-java-77b87f9d98-wz729,Marcelo Mendes Radaic
+empp,empp-orq-elegibilidade-renovacao-java-18-gttnk,Marcelo Mendes Radaic
+empp,empp-orq-elegibilidade-renovacao-java-18-jppj6,Marcelo Mendes Radaic
+empp,empp-orq-emprestimo-correntista-java-7fd755846b-4djj4,Marcelo Mendes Radaic
+empp,empp-orq-emprestimo-correntista-java-7fd755846b-z5qhk,Marcelo Mendes Radaic
+empp,empp-orq-simulacao-emprestimo-correntista-java-8fb88f488-mrbvh,Marcelo Mendes Radaic
+empp,empp-orq-simulacao-emprestimo-correntista-java-8fb88f488-t9j5p,Marcelo Mendes Radaic
+empp,empp-pagamentos-java-58d9f9bbcf-qnpk7,Marcelo Mendes Radaic
+empp,empp-pagamentos-java-58d9f9bbcf-tnf6b,Marcelo Mendes Radaic
+empp,empp-pagamentos-parcelado-pj-java-5fb56f4f77-7jh2l,Marcelo Mendes Radaic
+empp,empp-pagamentos-parcelado-pj-java-5fb56f4f77-kv2vq,Marcelo Mendes Radaic
+empp,empp-pagamentos-pix-java-d57b7958-2nnvh,Marcelo Mendes Radaic
+empp,empp-pagamentos-pix-java-d57b7958-562sw,Marcelo Mendes Radaic
+empp,empp-pagamentos-pix-java-d57b7958-5dsp2,Marcelo Mendes Radaic
+empp,empp-pagamentos-pix-java-d57b7958-9dj4v,Marcelo Mendes Radaic
+empp,empp-pagamentos-pix-java-d57b7958-hbprz,Marcelo Mendes Radaic
+empp,empp-pagamentos-pix-java-d57b7958-hlblr,Marcelo Mendes Radaic
+empp,empp-pagamentos-pix-java-d57b7958-lhmx8,Marcelo Mendes Radaic
+empp,empp-pagamentos-pix-java-d57b7958-mtwhr,Marcelo Mendes Radaic
+empp,empp-pagamentos-pix-java-d57b7958-mzhng,Marcelo Mendes Radaic
+empp,empp-pagamentos-pix-java-d57b7958-pnw9z,Marcelo Mendes Radaic
+empp,empp-parametrizacao-perfis-java-7-4z6km,Marcelo Mendes Radaic
+empp,empp-parametrizacao-perfis-java-7-fv9fl,Marcelo Mendes Radaic
+empp,empp-parametrizacao-perfis-java-7-jktrj,Marcelo Mendes Radaic
+empp,empp-parametrizacao-perfis-java-7-mbjz7,Marcelo Mendes Radaic
+empp,empp-parametrizacoes-sicred-java-3-45zjw,Marcelo Mendes Radaic
+empp,empp-parametrizacoes-sicred-java-3-mb5rr,Marcelo Mendes Radaic
+empp,empp-produtor-aprovacao-reserva-fgts-java-1-4wsfw,Marcelo Mendes Radaic
+empp,empp-produtor-aprovacao-reserva-fgts-java-1-fhvzh,Marcelo Mendes Radaic
+empp,empp-produtor-aprovacao-reserva-fgts-java-1-g9hst,Marcelo Mendes Radaic
+empp,empp-produtor-aprovacao-reserva-fgts-java-1-sk2qs,Marcelo Mendes Radaic
+empp,empp-renovacao-java-33-b8nn6,Marcelo Mendes Radaic
+empp,empp-renovacao-java-33-glzg4,Marcelo Mendes Radaic
+empp,empp-renovacao-java-33-kl2wp,Marcelo Mendes Radaic
+empp,empp-renovacao-java-33-tccwd,Marcelo Mendes Radaic
+empp,empp-retorno-nao-correntista-java-746c6d64c5-97l48,Marcelo Mendes Radaic
+empp,empp-retorno-nao-correntista-java-746c6d64c5-j8bkt,Marcelo Mendes Radaic
+empp,empp-simulacao-emprestimo-correntista-sicred-java-8d47d6b77j5gb,Marcelo Mendes Radaic
+empp,empp-simulacao-emprestimo-correntista-sicred-java-8d47d6b7cbqvj,Marcelo Mendes Radaic
+empp,empp-simulacao-emprestimo-correntista-sicred-java-8d47d6b7psw47,Marcelo Mendes Radaic
+empp,empp-simulacao-emprestimo-correntista-sicred-java-8d47d6b7rl7tm,Marcelo Mendes Radaic
+empp,empp-simulacao-emprestimo-correntista-sicred-java-8d47d6b7tslnw,Marcelo Mendes Radaic
+empp,empp-simulacao-emprestimo-correntista-sicred-java-8d47d6b7v847v,Marcelo Mendes Radaic
+empp,empp-simulacao-emprestimo-correntista-sicred-java-8d47d6b7vpwrn,Marcelo Mendes Radaic
+empp,empp-simulacao-emprestimo-correntista-sicred-java-8d47d6b7xm6b6,Marcelo Mendes Radaic
+empp,empp-simulacao-nao-correntista-java-6-sdpk4,Marcelo Mendes Radaic
+empp,empp-simulacao-nao-correntista-java-6-vdv2j,Marcelo Mendes Radaic
+empp,empp-simulacao-sicred-java-2-2xlwd,Marcelo Mendes Radaic
+empp,empp-simulacao-sicred-java-2-4nzmq,Marcelo Mendes Radaic
+empp,empp-simular-java-7c79d7f587-2tfwr,Marcelo Mendes Radaic
+epat,epat-consulta-transacoes-java-5ff7d68b4d-l522w,Claudia Yamamoto
+external-secrets,external-secrets-994b8cc8d-46hth,N/A - ??
+fdos,fdos-consulta-investimentos-java-5-2vbrx,Josias Silva/Claudia Yamamoto
+fdos,fdos-consulta-investimentos-java-5-759pj,Josias Silva/Claudia Yamamoto
+fdos,fdos-consulta-investimentos-java-5-9pb6w,Josias Silva/Claudia Yamamoto
+fdos,fdos-consulta-investimentos-java-5-n4xmw,Josias Silva/Claudia Yamamoto
+fdos,fdos-consulta-investimentos-java-5-q5zqp,Josias Silva/Claudia Yamamoto
+fdos,fdos-consulta-investimentos-java-5-z2hkf,Josias Silva/Claudia Yamamoto
+fepw,fepw-cmm-rest-java-20-r4jxn,Fernanda Passos
+fepw,fepw-cmm-rest-java-20-vvzbt,Fernanda Passos
+fepw,fepw-cmm-rest-java-5b65965f7c-p2qf2,Fernanda Passos
+fepw,fepw-cmm-rest-java-5b65965f7c-vvjfx,Fernanda Passos
+fepw,fepw-manutencao-java-5-7jrrg,Fernanda Passos
+fepw,fepw-manutencao-java-5-xcs4n,Fernanda Passos
+fisca,fisca-consultas-java-22-4dx4n,N/A - ??
+fisca,fisca-consultas-java-22-bzr72,N/A - ??
+gagc,gagc-operacoes-gravame-veiculos-java-67c749c976-7nfsz,Josias Silva/Claudia Yamamoto
+gagc,gagc-operacoes-gravame-veiculos-java-67c749c976-xrp4h,Josias Silva/Claudia Yamamoto
+gagc,gagc-operacoes-veiculos-java-67f8647df5-8x9l8,Josias Silva/Claudia Yamamoto
+gagc,gagc-operacoes-veiculos-java-67f8647df5-mczl6,Josias Silva/Claudia Yamamoto
+gagc,gagc-parametrizacoes-veiculos-java-766b95987f-68lr5,Josias Silva/Claudia Yamamoto
+gagc,gagc-parametrizacoes-veiculos-java-766b95987f-pgzqx,Josias Silva/Claudia Yamamoto
+gagc,gagc-persistencias-veiculos-java-5957b6cbbf-d666p,Josias Silva/Claudia Yamamoto
+gagc,gagc-persistencias-veiculos-java-5957b6cbbf-fhbsj,Josias Silva/Claudia Yamamoto
+gedc,gedc-consultas-java-6dfd966564-p7tkj,Muricio Porto
+gedc,gedc-consultas-java-6dfd966564-t7hdq,Muricio Porto
+gedc,gedc-consultas-java-6dfd966564-vzhfz,Muricio Porto
+gedc,gedc-minutaria-java-13-49dbm,Muricio Porto
+gedc,gedc-minutaria-java-13-whd98,Muricio Porto
+gedc,gedc-servicos-cmm-java-3-9dnlz,Muricio Porto
+gedc,gedc-servicos-cmm-java-3-ff4h5,Muricio Porto
+glcr,glcr-cmm-rest-java-19-88hv5,Marcos Barbosa/Claudia Yamamoto
+glcr,glcr-cmm-rest-java-19-lkgs8,Marcos Barbosa/Claudia Yamamoto
+glcr,glcr-cmm-rest-java-7d94dd7c64-9gh9d,Marcos Barbosa/Claudia Yamamoto
+glcr,glcr-contratacao-pf-java-7-krwmh,Marcos Barbosa/Claudia Yamamoto
+glcr,glcr-limites-java-589f65556d-6m6hm,Marcos Barbosa/Claudia Yamamoto
+glcr,glcr-limites-java-589f65556d-p8mx8,Marcos Barbosa/Claudia Yamamoto
+glcr,glcr-limites-pf-java-746b9fd7ff-zx2fp,Marcos Barbosa/Claudia Yamamoto
+glcr,glcr-linhas-credito-java-3-cnxlq,Marcos Barbosa/Claudia Yamamoto
+glcr,glcr-linhas-credito-java-3-zv7w9,Marcos Barbosa/Claudia Yamamoto
+glpf,glpf-bloqueio-limites-java-6bd6fd5984-45pb2,Marcos Barbosa/Claudia Yamamoto
+glpf,glpf-bloqueio-limites-java-6bd6fd5984-lqzb4,Marcos Barbosa/Claudia Yamamoto
+glpf,glpf-contratacao-atraso-java-6-86s99,Marcos Barbosa/Claudia Yamamoto
+glpf,glpf-contratacao-java-4-jf2hn,Marcos Barbosa/Claudia Yamamoto
+glpf,glpf-contratacao-java-4-kbbqr,Marcos Barbosa/Claudia Yamamoto
+glpf,glpf-limites-credito-java-7b7fc7cc9c-bm8jl,Marcos Barbosa/Claudia Yamamoto
+glpf,glpf-limites-credito-java-7b7fc7cc9c-rhr7x,Marcos Barbosa/Claudia Yamamoto
+glpf,glpf-limites-java-16-d9m5q,Marcos Barbosa/Claudia Yamamoto
+glpf,glpf-orq-enfileirar-propostas-java-6-wj7c5,Marcos Barbosa/Claudia Yamamoto
+glpf,glpf-propostas-java-11-5x8w8,Marcos Barbosa/Claudia Yamamoto
+glpf,glpf-propostas-java-11-85qhj,Marcos Barbosa/Claudia Yamamoto
+glpf,glpf-propostas-java-11-9gmv4,Marcos Barbosa/Claudia Yamamoto
+glpf,glpf-propostas-java-11-wgcjv,Marcos Barbosa/Claudia Yamamoto
+glpf,glpf-propostas-nao-correntista-java-8-f2ccx,Marcos Barbosa/Claudia Yamamoto
+glpf,glpf-propostas-nao-correntista-java-8-f5n6t,Marcos Barbosa/Claudia Yamamoto
+glpf,glpf-reducao-limite-cmm-java-5b599574b7-ht4w5,Marcos Barbosa/Claudia Yamamoto
+glpf,glpf-reducao-limite-cmm-java-5b599574b7-rlj5t,Marcos Barbosa/Claudia Yamamoto
+glpf,glpf-retorno-nao-correntista-java-9-55b7f,Marcos Barbosa/Claudia Yamamoto
+glpf,glpf-retorno-nao-correntista-java-9-p7q4p,Marcos Barbosa/Claudia Yamamoto
+glpf,glpf-validacoes-aumento-operacoes-java-4-669wp,Marcos Barbosa/Claudia Yamamoto
+glpf,glpf-validacoes-aumento-operacoes-java-4-8kg7c,Marcos Barbosa/Claudia Yamamoto
+glpf,glpf-validacoes-limite-disponivel-java-4-blnm2,Marcos Barbosa/Claudia Yamamoto
+glpj,glpj-canal-propostas-lote-java-7d7dd4f9c-tfsrp,Josias Silva/Claudia Yamamoto
+glpj,glpj-captura-documentos-java-5-qfjbw,Josias Silva/Claudia Yamamoto
+glpj,glpj-captura-documentos-java-5-x6w4m,Josias Silva/Claudia Yamamoto
+glpj,glpj-consumidor-calculo-disponibilidade-java-3-4prvl,Josias Silva/Claudia Yamamoto
+glpj,glpj-consumidor-calculo-disponibilidade-java-3-mpbdd,Josias Silva/Claudia Yamamoto
+glpj,glpj-consumidor-captura-documentos-antv-java-7-h4dmk,Josias Silva/Claudia Yamamoto
+glpj,glpj-consumidor-captura-documentos-antv-java-7-n62k4,Josias Silva/Claudia Yamamoto
+glpj,glpj-documentos-java-1-6sbtq,Josias Silva/Claudia Yamamoto
+glpj,glpj-documentos-java-1-t57p6,Josias Silva/Claudia Yamamoto
+intp,intp-recebimento-solicitacoes-pagamentos-java-6-pqgrv,Daniel Costa Ribeiro
+intp,intp-recebimento-solicitacoes-pagamentos-java-6-s4sbw,Daniel Costa Ribeiro
+invo,invo-auth-sistemas-java-1-x4slg,Josias Silva/Claudia Yamamoto
+invo,invo-rentabilidade-java-8-drndg,Josias Silva/Claudia Yamamoto
+ipix,ipix-busca-estatistica-dict-java-658d874c74-8gljt,Andrey Harmmer Ferreira
+ipix,ipix-busca-estatistica-dict-java-658d874c74-pzksk,Andrey Harmmer Ferreira
+ipix,ipix-canal-manutencao-java-59bfd4d84f-7l4qf,Andrey Harmmer Ferreira
+ipix,ipix-conciliacao-pix-java-674f4b6f95-b9bxz,Andrey Harmmer Ferreira
+ipix,ipix-consulta-bacen-java-845fbff85c-fz99d,Andrey Harmmer Ferreira
+ipix,ipix-consumidor-baas-picpay-java-76bcb8999d-gpjx8,Andrey Harmmer Ferreira
+ipix,ipix-consumidor-baas-picpay-java-76bcb8999d-gz6ms,Andrey Harmmer Ferreira
+ipix,ipix-consumidor-concilia-pix-enviados-java-13-2k46q,Andrey Harmmer Ferreira
+ipix,ipix-consumidor-concilia-pix-enviados-java-13-ngkhq,Andrey Harmmer Ferreira
+ipix,ipix-consumidor-concilia-pix-picpay-java-775c5b54b7-dpgjm,Andrey Harmmer Ferreira
+ipix,ipix-consumidor-concilia-pix-picpay-java-775c5b54b7-qvs74,Andrey Harmmer Ferreira
+ipix,ipix-consumidor-concilia-pix-recebidos-java-13-46mdj,Andrey Harmmer Ferreira
+ipix,ipix-consumidor-concilia-pix-recebidos-java-13-q82wt,Andrey Harmmer Ferreira
+ipix,ipix-consumidor-estorno-devolucao-java-6b6587495f-4q8h5,Andrey Harmmer Ferreira
+ipix,ipix-consumidor-estorno-devolucao-java-6b6587495f-w82zj,Andrey Harmmer Ferreira
+ipix,ipix-consumidor-mensagens-bacen-dlq-java-546774d4cf-6bxmm,Andrey Harmmer Ferreira
+ipix,ipix-consumidor-mensagens-bacen-dlq-java-546774d4cf-mwsgf,Andrey Harmmer Ferreira
+ipix,ipix-consumidor-pacs002-envio-pacs008-java-7f7bb79798-kfnqx,Andrey Harmmer Ferreira
+ipix,ipix-consumidor-pacs002-envio-pacs008-java-7f7bb79798-mzdkx,Andrey Harmmer Ferreira
+ipix,ipix-transferencias-bacen-java-7b9fbdbd7b-94xsq,Andrey Harmmer Ferreira
+ipix,ipix-transferencias-bacen-java-7b9fbdbd7b-pbf5k,Andrey Harmmer Ferreira
+kube-system,registry-creds-splnm,N/A - ??
+kubecost,kubecost-cost-analyzer-586d6f7f84-kkbsd,N/A - ??
+kubecost,kubecost-prometheus-server-5664dd674-7m4qk,N/A - ??
+lgpd,lgpd-campanha-consentimento-java-757c495fdc-kw298,Angelita De Cassia Correa
+lgpd,lgpd-campanha-consentimento-java-757c495fdc-pd7p7,Angelita De Cassia Correa
+lipe,lipe-manutencao-limites-pendentes-java-green-797c8867f7-fgmv4,N/A - ??
+lipe,lipe-transacoes-java-21-2rbbz,N/A - ??
+lipe,lipe-transacoes-java-21-cgtwl,N/A - ??
+lipe,lipe-transacoes-java-21-lnfbh,N/A - ??
+lipe,lipe-transacoes-java-21-sfgkm,N/A - ??
+lipe,lipe-transacoes-java-21-t5ghg,N/A - ??
+lipe,lipe-transacoes-java-21-vn75f,N/A - ??
+lipe,lipe-transacoes-java-21-vpdh6,N/A - ??
+lipe,lipe-transacoes-java-21-wv9qh,N/A - ??
+maca,maca-controle-seguranca-java-66d5764875-h8zhp,Steeves Antonio Ferreira
+maca,maca-controle-seguranca-java-66d5764875-lsw2d,Steeves Antonio Ferreira
+maca,maca-parametrizacao-visualizacao-java-5bfcd8c985-nfbbv,Steeves Antonio Ferreira
+mbio,mbio-consulta-dados-bacen-java-668f59f765-szjlj,Marcos Barbosa/Claudia Yamamoto
+mbio,mbio-consulta-dados-bacen-java-668f59f765-wzvvw,Marcos Barbosa/Claudia Yamamoto
+mbio,mbio-servicos-serasa-java-5-cnmg5,Marcos Barbosa/Claudia Yamamoto
+mbio,mbio-servicos-serasa-java-5-xsq6g,Marcos Barbosa/Claudia Yamamoto
+mcsv,mcsv-abertura-conta-java-7f74f8ccfd-jwgzs,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-abertura-conta-java-7f74f8ccfd-nntbh,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-abertura-conta-java-7f74f8ccfd-s79nr,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-abertura-conta-java-7f74f8ccfd-vbdzg,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-abertura-conta-java-7f74f8ccfd-xspxn,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-abertura-conta-java-7f74f8ccfd-ztptb,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-abertura-conta-pj-java-7647588779-8dt7r,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-abertura-conta-pj-java-7647588779-srxvg,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-abertura-conta-pj-token-java-5-bqt8v,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-abertura-conta-pj-token-java-5-swq5v,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-abertura-conta-representante-pj-java-6788675b7b-4fw5n,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-abertura-conta-representante-pj-java-6788675b7b-w828p,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-abertura-conta-token-java-748bbfb949-2pfqr,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-abertura-conta-token-java-748bbfb949-4blm2,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-abertura-conta-token-java-748bbfb949-gjpkj,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-abertura-conta-token-java-748bbfb949-msrdl,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-atualizacao-dados-cadastrais-java-778c96cbf6-2nrtv,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-atualizacao-dados-cadastrais-java-778c96cbf6-qj6k8,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-autenticacao-area-nao-logada-java-1-nf4rc,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-autenticacao-area-nao-logada-java-1-vn6zp,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-autenticacao-nao-correntista-java-c5c76d656-4t29g,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-autenticacao-nao-correntista-java-c5c76d656-7hs4r,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-autenticacao-pj-java-12-57p59,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-autenticacao-pj-java-12-gc5qk,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-callback-java-4-bs8rg,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-callback-java-4-npv7d,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-callback-java-4-pjg4c,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-capital-giro-java-c89ccfc67-pc6xp,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-captura-documentos-java-1-s7v6k,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-consultas-cartoes-java-6678c79b98-5tc45,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-consultas-cartoes-java-6678c79b98-g6lvp,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-contas-java-5-p7dcv,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-contas-java-5-x8bgq,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-interno-cobranca-digital-java-5984bf79f7-c8bzc,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-interno-contato-cadastro-java-13-w55sr,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-interno-contato-cadastro-java-67d68d7887-rqwj6,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-interno-contato-cadastro-java-67d68d7887-t6jtf,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-interno-contatos-java-6cbcd4fcdc-7wwft,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-interno-positivacao-cliente-java-5958d46bcf-pwrr7,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-interno-previdencia-java-3-6sjrn,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-interno-previdencia-java-3-jh8cd,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-interno-prospects-java-11-k9nwc,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-manutencao-cartoes-java-1-lr6hv,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-manutencao-lite-id-java-9-bsnvg,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-open-banking-consultas-java-20-nzctj,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-open-banking-handoff-java-5b49465948-lbcdp,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-open-banking-handoff-java-5b49465948-x2bc9,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-portabilidade-previdencia-java-1-gc4jw,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-portabilidade-previdencia-java-1-z6rtg,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-relatorio-visitas-pvld-java-5-bhmzh,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-token-atendimento-java-555dc68d58-6729q,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-token-atendimento-java-555dc68d58-kpmzx,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-token-pf-java-6bf497cdb6-2fkhn,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-token-pf-java-6bf497cdb6-9vmhq,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-topaz-java-5-24wzf,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-topaz-java-5-928p2,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-topaz-java-5-9szb6,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-topaz-java-5-c7pnc,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-topaz-java-5-hlt2v,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-topaz-java-5-m6qnm,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mcsv,mcsv-transferencia-parceiro-java-4-27x7j,Marcelo Silva<marcelo.moro@picpay.com> - Nahor Alves/Steeves Ferreira
+mtpr,mtpr-risco-java-7959d7ff5b-ksb5v,Marcelo Mendes Radaic
+mtpr,mtpr-taxas-cliente-java-59545499b-968bm,Marcelo Mendes Radaic
+obot,obot-manutencao-telefone-whatsapp-java-20-dfh82,Felipe Ono
+obot,obot-manutencao-telefone-whatsapp-java-20-hnwmd,Felipe Ono
+obot,obot-manutencao-telefone-whatsapp-java-20-l922l,Felipe Ono
+obot,obot-manutencao-telefone-whatsapp-java-20-sjt48,Felipe Ono
+obot,obot-manutencao-telefone-whatsapp-java-20-xtr9z,Felipe Ono
+ofer,ofer-integracao-medallia-java-79fb97ff5d-2kdkz,Felipe Ono
+ofer,ofer-integracao-medallia-java-79fb97ff5d-jz249,Felipe Ono
+ofer,ofer-tarefas-java-678f77b6b6-5pl2t,Felipe Ono
+opbk,opbk-iniciador-pagamentos-java-8698fc5bff-tc2mg,Thiago Ortiz / Tales Marland / Delermando Miranda
+opbk,opbk-produtor-reprocessa-recursos-java-7847d5c686-r8h8s,Thiago Ortiz / Tales Marland / Delermando Miranda
+opbk,opbk-produtor-reprocessa-recursos-java-7847d5c686-xkx8n,Thiago Ortiz / Tales Marland / Delermando Miranda
+original-metrics,grafana-deployment-d85f7c645-nltfb,N/A - ??
+parc,parc-dados-cadastrais-parcerias-java-4-pbkb9,Fernanda Passos
+parc,parc-dados-cadastrais-parcerias-java-4-wzh9x,Fernanda Passos
+pcpg,pcpg-plataforma-comercial-bff-java-55ffb7585b-hjtpr,Felipe Ono
+pcpg,pcpg-plataforma-comercial-bff-java-55ffb7585b-w5knn,Felipe Ono
+pgto,pgto-agendamentos-pix-java-5d6b75d9d-fmnp4,Simone/Equipe BAAS
+pgto,pgto-agendamentos-pix-java-5d6b75d9d-w77hr,Simone/Equipe BAAS
+pgto,pgto-boletos-java-6dbbccb46f-82v86,Simone/Equipe BAAS
+pgto,pgto-boletos-java-6dbbccb46f-jlv5d,Simone/Equipe BAAS
+pgto,pgto-callback-ted-java-8-8cn5g,Simone/Equipe BAAS
+pgto,pgto-callback-ted-java-8-drpgn,Simone/Equipe BAAS
+pgto,pgto-canal-comprovante-java-6bdb957dff-9vc8c,Simone/Equipe BAAS
+pgto,pgto-canal-comprovante-java-6bdb957dff-w8q92,Simone/Equipe BAAS
+pgto,pgto-captura-resposta-baixa-titulos-java-78b5b8f444-95t77,Simone/Equipe BAAS
+pgto,pgto-captura-resposta-baixa-titulos-java-78b5b8f444-dh94b,Simone/Equipe BAAS
+pgto,pgto-captura-resposta-baixa-titulos-java-78b5b8f444-ggq9d,Simone/Equipe BAAS
+pgto,pgto-captura-resposta-baixa-titulos-java-78b5b8f444-lzgbv,Simone/Equipe BAAS
+pgto,pgto-captura-resposta-baixa-titulos-java-78b5b8f444-r7phm,Simone/Equipe BAAS
+pgto,pgto-captura-resposta-baixa-titulos-java-78b5b8f444-rfjq5,Simone/Equipe BAAS
+pgto,pgto-cmm-rest-java-37-2t5k9,Simone/Equipe BAAS
+pgto,pgto-cmm-rest-java-37-mlcfw,Simone/Equipe BAAS
+pgto,pgto-codigo-barras-boleto-java-f6f6d5547-c6ktg,Simone/Equipe BAAS
+pgto,pgto-codigo-barras-boleto-java-f6f6d5547-dtvjk,Simone/Equipe BAAS
+pgto,pgto-codigo-barras-boleto-java-f6f6d5547-fz5l7,Simone/Equipe BAAS
+pgto,pgto-codigo-barras-boleto-java-f6f6d5547-ghp6p,Simone/Equipe BAAS
+pgto,pgto-codigo-barras-boleto-java-f6f6d5547-gvlmm,Simone/Equipe BAAS
+pgto,pgto-codigo-barras-boleto-java-f6f6d5547-z46sw,Simone/Equipe BAAS
+pgto,pgto-codigo-barras-java-v1-6cc88ddf57-rm6tx,Simone/Equipe BAAS
+pgto,pgto-codigo-barras-java-v1-6cc88ddf57-vdw9f,Simone/Equipe BAAS
+pgto,pgto-comprovante-ted-java-c668d6696-d7km6,Simone/Equipe BAAS
+pgto,pgto-comprovante-ted-java-c668d6696-wrlh2,Simone/Equipe BAAS
+pgto,pgto-comprovantes-java-5fcdbf4859-ftjvb,Simone/Equipe BAAS
+pgto,pgto-comprovantes-java-5fcdbf4859-mbd6z,Simone/Equipe BAAS
+pgto,pgto-consumidor-baixa-boleto-proprio-java-785947985f-d7ngd,Simone/Equipe BAAS
+pgto,pgto-consumidor-baixa-boleto-proprio-java-785947985f-mm6jd,Simone/Equipe BAAS
+pgto,pgto-consumidor-estorno-boleto-java-5d6499f876-v2b6m,Simone/Equipe BAAS
+pgto,pgto-consumidor-iniciador-pagamentos-java-85bdcf5c-kjr8q,Simone/Equipe BAAS
+pgto,pgto-consumidor-iniciador-pagamentos-java-85bdcf5c-vkxhp,Simone/Equipe BAAS
+pgto,pgto-consumidor-status-baixa-titulos-java-67b74cd4c8-n95rq,Simone/Equipe BAAS
+pgto,pgto-consumidor-status-baixa-titulos-java-67b74cd4c8-xkrlb,Simone/Equipe BAAS
+pgto,pgto-consumidor-transacoes-pix-varejo-java-578cbb96f7-f5d8c,Simone/Equipe BAAS
+pgto,pgto-consumidor-transacoes-pix-varejo-java-578cbb96f7-fl25d,Simone/Equipe BAAS
+pgto,pgto-consumidor-transacoes-pix-varejo-java-578cbb96f7-hlzp5,Simone/Equipe BAAS
+pgto,pgto-enviar-ted-java-5464cfb87b-2mzc2,Simone/Equipe BAAS
+pgto,pgto-enviar-ted-java-5464cfb87b-5m5vx,Simone/Equipe BAAS
+pgto,pgto-estornar-baixa-titulos-java-6b56c98469-45z4g,Simone/Equipe BAAS
+pgto,pgto-estornar-baixa-titulos-java-6b56c98469-fsmpr,Simone/Equipe BAAS
+pgto,pgto-favorecidos-pagamentos-java-567b794c86-9hg4f,Simone/Equipe BAAS
+pgto,pgto-grade-horaria-java-6f78df57b-xqvn9,Simone/Equipe BAAS
+pgto,pgto-iniciador-pagamentos-java-5d54445b68-6j4fd,Simone/Equipe BAAS
+pgto,pgto-iniciador-pagamentos-java-5d54445b68-bmrx8,Simone/Equipe BAAS
+pgto,pgto-liquidacoes-detran-java-20-rljq6,Simone/Equipe BAAS
+pgto,pgto-liquidacoes-detran-java-20-vn4kx,Simone/Equipe BAAS
+pgto,pgto-liquidacoes-ipva-java-10-bh9kg,Simone/Equipe BAAS
+pgto,pgto-liquidacoes-ipva-java-10-wpqst,Simone/Equipe BAAS
+pgto,pgto-liquidar-tributos-consumos-java-7d79b94fd6-hjgs5,Simone/Equipe BAAS
+pgto,pgto-liquidar-tributos-consumos-java-7d79b94fd6-mln9z,Simone/Equipe BAAS
+pgto,pgto-monitorar-pagamentos-batch-java-5bb5b5f5cc-m7tl5,Simone/Equipe BAAS
+pgto,pgto-orquestrador-boletos-java-645dcb9568-ddxqd,Simone/Equipe BAAS
+pgto,pgto-orquestrador-boletos-java-645dcb9568-jqckv,Simone/Equipe BAAS
+pgto,pgto-orquestrador-boletos-java-645dcb9568-mzwhj,Simone/Equipe BAAS
+pgto,pgto-pag-original-java-5-bt2lm,Simone/Equipe BAAS
+pgto,pgto-pag-original-java-5-vz7qp,Simone/Equipe BAAS
+pgto,pgto-prepara-comprovante-java-17-4tnfl,Simone/Equipe BAAS
+pgto,pgto-prepara-comprovante-java-17-77b46,Simone/Equipe BAAS
+pgto,pgto-prepara-comprovante-java-17-8c58r,Simone/Equipe BAAS
+pgto,pgto-prepara-comprovante-java-17-b2dp8,Simone/Equipe BAAS
+pgto,pgto-prepara-comprovante-java-17-d8lrb,Simone/Equipe BAAS
+pgto,pgto-prepara-comprovante-java-17-hh27j,Simone/Equipe BAAS
+pgto,pgto-prepara-comprovante-java-17-jqmrm,Simone/Equipe BAAS
+pgto,pgto-recebimento-tributos-consumos-java-7-jq6jh,Simone/Equipe BAAS
+pgto,pgto-recibos-java-4-77dk2,Simone/Equipe BAAS
+pgto,pgto-solicita-baixa-titulos-java-774846846-nwwzf,Simone/Equipe BAAS
+pgto,pgto-solicita-baixa-titulos-java-774846846-vn79z,Simone/Equipe BAAS
+pgto,pgto-status-pagamentos-java-6bdccf7d9f-z2qkg,Simone/Equipe BAAS
+pgto,pgto-transferencia-pix-java-7749b969f7-9ldkd,Simone/Equipe BAAS
+pgto,pgto-transferencias-parceiro-java-3-sh84r,Simone/Equipe BAAS
+port,port-salario-optin-java-10-hlgmv,Simone/Equipe BAAS
+port,port-salario-optin-java-10-qmzqh,Simone/Equipe BAAS
+prev,prev-cmm-rest-java-5-5gnkh,Josias Silva/Claudia Yamamoto
+prev,prev-cmm-rest-java-5-8f9v7,Josias Silva/Claudia Yamamoto
+prev,prev-cmm-rest-java-6d947c76c-jblm5,Josias Silva/Claudia Yamamoto
+prev,prev-consulta-java-3-zfwnx,Josias Silva/Claudia Yamamoto
+prev,prev-contratacao-java-3-h2r52,Josias Silva/Claudia Yamamoto
+prev,prev-contratacao-java-3-h8rws,Josias Silva/Claudia Yamamoto
+prev,prev-portabilidade-java-3-llbp2,Josias Silva/Claudia Yamamoto
+prev,prev-portabilidade-java-3-mhthq,Josias Silva/Claudia Yamamoto
+prev,prev-resgate-java-1-9nns2,Josias Silva/Claudia Yamamoto
+prev,prev-resgate-java-1-qf2vm,Josias Silva/Claudia Yamamoto
+pvfr,pvfr-analise-fraude-credito-java-967b586c7-cwpb4,Muricio Porto
+pvfr,pvfr-analise-fraude-credito-java-967b586c7-zcgfb,Muricio Porto
+pvfr,pvfr-analise-produto-nao-correntista-java-3-6w6cg,Muricio Porto
+pvfr,pvfr-analise-produto-nao-correntista-java-3-qfdk5,Muricio Porto
+pvfr,pvfr-bureau-java-9-dvmpv,Muricio Porto
+pvfr,pvfr-bureau-java-9-p4jgg,Muricio Porto
+pvfr,pvfr-consumidor-fraudes-java-85c6cb9748-8lhvl,Muricio Porto
+pvfr,pvfr-consumidor-fraudes-java-85c6cb9748-x9ggr,Muricio Porto
+pvfr,pvfr-consumidor-restricao-credito-java-846c7786d5-gdchj,Muricio Porto
+pvfr,pvfr-consumidor-restricao-credito-java-846c7786d5-mdxdt,Muricio Porto
+pvfr,pvfr-infracoes-java-786b66d54c-bd8sr,Muricio Porto
+pvfr,pvfr-infracoes-java-786b66d54c-ghgxs,Muricio Porto
+pvfr,pvfr-motor-fraude-java-74df58ccd9-2fs24,Muricio Porto
+pvfr,pvfr-topaz-java-3-jt7ng,Muricio Porto
+pvfr,pvfr-topaz-java-3-k8dml,Muricio Porto
+pvfr,pvfr-topaz-java-3-p6zmv,Muricio Porto
+pvfr,pvfr-topaz-java-3-wv7jx,Muricio Porto
+pvld,pvld-consumer-receber-infracao-java-5b8d54c79f-hzwmh,Muricio Porto
+pvld,pvld-manutencao-infracao-java-7794844dc8-9k4gj,Muricio Porto
+pvld,pvld-manutencao-infracao-java-7794844dc8-llhj9,Muricio Porto
+pvld,pvld-relatorio-visitas-java-6-r4csh,Muricio Porto
+pvld,pvld-relatorio-visitas-java-6-zkj4c,Muricio Porto
+pvld,pvld-sancoes-onu-java-1-fsrtn,Muricio Porto
+pvld,pvld-sancoes-onu-java-1-jzc9g,Muricio Porto
+qsbo,qsbo-envio-informacoes-java-68b69764c5-6p8tf,Joao Eduardo Zimerer
+qsbo,qsbo-envio-informacoes-java-68b69764c5-zg2bj,Joao Eduardo Zimerer
+reip,reip-abertura-conta-corban-java-94f8cb8b4-f4vwb,Felipe Ono
+reip,reip-abertura-conta-corban-java-94f8cb8b4-xwch2,Felipe Ono
+reip,reip-abertura-conta-pj-pix-java-5985554f7c-n9vlg,Felipe Ono
+reip,reip-prospects-java-856454d9f5-5z6nw,Felipe Ono
+reip,reip-prospects-java-856454d9f5-6frt8,Felipe Ono
+reip,reip-prospects-java-856454d9f5-6vbr8,Felipe Ono
+reip,reip-prospects-java-856454d9f5-l9tv9,Felipe Ono
+reip,reip-prospects-java-856454d9f5-plhx7,Felipe Ono
+reip,reip-prospects-java-856454d9f5-zwjnp,Felipe Ono
+reip,reip-status-java-10-frwqf,Felipe Ono
+reip,reip-status-java-10-zqrm9,Felipe Ono
+reip,reip-variaveis-digitais-java-9-85tjn,Felipe Ono
+reip,reip-variaveis-digitais-java-9-qklsv,Felipe Ono
+retr,retr-desafios-authorities-java-4-86vpr,Fernando Reis
+retr,retr-desafios-authorities-java-4-fb97b,Fernando Reis
+retr,retr-desafios-authorities-java-4-tzg8x,Fernando Reis
+retr,retr-desafios-callback-java-2-2h8t9,Fernando Reis
+retr,retr-desafios-callback-java-2-chv5h,Fernando Reis
+retr,retr-desafios-callback-java-2-ckgdc,Fernando Reis
+retr,retr-desafios-liveness-java-5-9s4gf,Fernando Reis
+retr,retr-desafios-liveness-java-5-nwgjb,Fernando Reis
+retr,retr-desafios-notificacoes-java-b8ff8dd5d-hz2bs,Fernando Reis
+retr,retr-desafios-notificacoes-java-b8ff8dd5d-l9d2f,Fernando Reis
+retr,retr-desafios-senha-cartao-java-7-lb4j2,Fernando Reis
+retr,retr-desafios-senha-cartao-java-7-xsdsd,Fernando Reis
+retr,retr-produtor-integracao-callback-java-2-7j9s4,Fernando Reis
+retr,retr-produtor-transacoes-retidas-java-2-2x5ks,Fernando Reis
+rewd,rewd-cmm-rest-java-20-gs74q,Heverson Amorim (heverson.amorim@picpay.com)
+rewd,rewd-parametrizacao-java-5-g75km,Heverson Amorim (heverson.amorim@picpay.com)
+rewd,rewd-resgate-pontos-java-6-tkkrq,Heverson Amorim (heverson.amorim@picpay.com)
+rewd,rewd-saldo-clientes-java-7c8db877c7-25jc9,Heverson Amorim (heverson.amorim@picpay.com)
+rewd,rewd-saldo-clientes-java-7c8db877c7-bhqbn,Heverson Amorim (heverson.amorim@picpay.com)
+rhgp,rhgp-agente-digital-java-8-zv4ql,Joao Eduardo Zimerer
+rnco,rnco-aprovacao-proposta-java-589d5788c7-x5mk6,Eduardo Justiniano
+rnco,rnco-canal-parametrizacao-perfis-java-6747b689cc-hhpvg,Eduardo Justiniano
+rnco,rnco-consulta-contrato-renegociado-java-68849c5695-74v45,Eduardo Justiniano
+rnco,rnco-consulta-contrato-renegociado-java-68849c5695-wrwbt,Eduardo Justiniano
+rnco,rnco-consumidor-encargos-java-5bd5d65577-22c7m,Eduardo Justiniano
+rnco,rnco-consumidor-encargos-java-5bd5d65577-r6jz9,Eduardo Justiniano
+rnco,rnco-consumidor-encargos-java-5bd5d65577-shmdl,Eduardo Justiniano
+rnco,rnco-consumidor-encargos-java-5bd5d65577-ss45t,Eduardo Justiniano
+rnco,rnco-consumidor-pagamento-boleto-java-655454964f-6wdwf,Eduardo Justiniano
+rnco,rnco-consumidor-pagamento-boleto-java-655454964f-d4qmz,Eduardo Justiniano
+rnco,rnco-consumidor-pagamento-boleto-java-655454964f-gnd67,Eduardo Justiniano
+rnco,rnco-consumidor-pagamento-boleto-java-655454964f-rgc7p,Eduardo Justiniano
+rnco,rnco-consumidor-pix-recebido-java-84f89859f6-cf9g7,Eduardo Justiniano
+rnco,rnco-consumidor-pix-recebido-java-84f89859f6-gd27n,Eduardo Justiniano
+rnco,rnco-parametrizacao-perfis-java-75767b96c5-srz8d,Eduardo Justiniano
+rnco,rnco-parametrizacao-perfis-java-75767b96c5-swwvq,Eduardo Justiniano
+rnco,rnco-proposta-java-9b9bf6c46-hn9jp,Eduardo Justiniano
+rnco,rnco-proposta-java-9b9bf6c46-wd4ss,Eduardo Justiniano
+rneg,rneg-canal-orq-renegociacao-divida-java-7c677c5c8b-4l7br,Eduardo Justiniano
+rneg,rneg-canal-parceiro-renegociacao-divida-java-79cffb98d4-2p5c6,Eduardo Justiniano
+rneg,rneg-canal-parceiro-renegociacao-divida-java-79cffb98d4-967nb,Eduardo Justiniano
+rneg,rneg-canal-parceiro-renegociacao-divida-serasa-java-784dfb5kbth,Eduardo Justiniano
+rneg,rneg-canal-parceiro-renegociacao-divida-serasa-java-784dfb5xvnn,Eduardo Justiniano
+rneg,rneg-canal-parceiro-renegociacao-divida-serasa-java-784dfbfffhb,Eduardo Justiniano
+rneg,rneg-canal-parceiro-renegociacao-divida-serasa-java-784dfbq8nwl,Eduardo Justiniano
+rneg,rneg-cmm-rest-java-7c485f6899-bwkfd,Eduardo Justiniano
+rneg,rneg-cmm-rest-java-7c485f6899-chdnd,Eduardo Justiniano
+rtto,rtto-cet-java-2-6xmw4,Fernanda Passos
+rtto,rtto-cet-java-2-lz6v9,Fernanda Passos
+rtto,rtto-consultar-cheque-especial-java-16-dt9t2,Fernanda Passos
+rtto,rtto-consultar-cheque-especial-java-16-g7r2f,Fernanda Passos
+rtto,rtto-consultar-cheque-especial-java-16-hpm52,Fernanda Passos
+rtto,rtto-consultar-cheque-especial-java-16-j6nw7,Fernanda Passos
+rtto,rtto-consultar-cheque-especial-java-16-j7dhd,Fernanda Passos
+rtto,rtto-consultar-cheque-especial-java-16-jqxfs,Fernanda Passos
+rtto,rtto-consultar-cheque-especial-java-16-zvxkt,Fernanda Passos
+rtto,rtto-consultar-cheque-especial-java-748fdf86d6-hc2hn,Fernanda Passos
+rtto,rtto-consultar-cheque-especial-java-748fdf86d6-hkvqx,Fernanda Passos
+rtto,rtto-consultar-cheque-especial-java-748fdf86d6-wsh9c,Fernanda Passos
+rtto,rtto-consultar-contrato-cheque-especial-java-6b98c549df-pdsbm,Fernanda Passos
+rtto,rtto-consultar-contrato-cheque-especial-java-6b98c549df-rs99r,Fernanda Passos
+rtto,rtto-consumer-manutencao-limites-java-5-b5zn8,Fernanda Passos
+rtto,rtto-consumer-manutencao-limites-java-5-r8xjd,Fernanda Passos
+rtto,rtto-manutencao-limite-java-5-9fhcs,Fernanda Passos
+rtto,rtto-manutencao-limite-java-5-ht5h9,Fernanda Passos
+rtto,rtto-operacoes-java-6469984767-4f5dt,Fernanda Passos
+rtto,rtto-operacoes-java-6469984767-nz7kt,Fernanda Passos
+rtto,rtto-operacoes-renegociacao-java-579d76f568-9wm6p,Fernanda Passos
+rtto,rtto-operacoes-renegociacao-java-579d76f568-cjb9x,Fernanda Passos
+rtto,rtto-operacoes-renegociacao-java-579d76f568-qhsgw,Fernanda Passos
+rtto,rtto-operacoes-renegociacao-java-579d76f568-qtt6h,Fernanda Passos
+sicred,authorization-bb7d667d7-w2zpb,N/A - ??
+sicred,cadastrodinamico-7c75b85997-hcjjn,N/A - ??
+sicred,contrato-69598b7c84-z7zt9,N/A - ??
+sicred,datas-7c69448985-zj9wk,N/A - ??
+sicred,dominios-8f5487d4b-n69kf,N/A - ??
+sicred,gatewayboleto-5d9d7d6794-4p8b8,N/A - ??
+sicred,impressaoboleto-697dbc47f9-fhctg,N/A - ??
+sicred,liberacoes-d5ff9b87b-wgc6z,N/A - ??
+sicred,pagamento-5d644967c6-6hnsl,N/A - ??
+sicred,parametrosoperacao-86489866c-2rrpq,N/A - ??
+sicred,proposta-85c7ddf47c-bxmg2,N/A - ??
+sicred,registroboleto-6d54b89945-2rwz9,N/A - ??
+sicred,simulacao-bff7d6797-65rsp,N/A - ??
+tbgr,tbgr-bancos-java-1-5hpr9,Fernanda Passos
+tbgr,tbgr-canais-java-2-llljz,Fernanda Passos
+tbgr,tbgr-canais-java-2-t9rlz,Fernanda Passos
+tbgr,tbgr-canal-cartorios-java-6-55grl,Fernanda Passos
+tbgr,tbgr-canal-cartorios-java-6-b2n24,Fernanda Passos
+tbgr,tbgr-cartorios-java-5-4m9r2,Fernanda Passos
+tbgr,tbgr-cartorios-java-5-w4qnt,Fernanda Passos
+tbgr,tbgr-consulta-regras-java-2-dg245,Fernanda Passos
+tbgr,tbgr-consulta-regras-java-2-hdwlx,Fernanda Passos
+tbgr,tbgr-consultas-java-10-68h8w,Fernanda Passos
+tbgr,tbgr-consultas-java-10-8ksb4,Fernanda Passos
+tbgr,tbgr-consultas-java-10-sm7dj,Fernanda Passos
+tbgr,tbgr-consultas-java-10-v2t6c,Fernanda Passos
+tbgr,tbgr-dias-uteis-java-6-26bll,Fernanda Passos
+tbgr,tbgr-dias-uteis-java-6-bh74n,Fernanda Passos
+tbgr,tbgr-dias-uteis-java-6-qmbjp,Fernanda Passos
+tbgr,tbgr-dias-uteis-java-6-vxqj2,Fernanda Passos
+tbgr,tbgr-dominios-java-574dfbf48b-h4htk,Fernanda Passos
+tbgr,tbgr-dominios-java-574dfbf48b-nftx8,Fernanda Passos
+tbgr,tbgr-eventos-java-1-brcrq,Fernanda Passos
+tbgr,tbgr-eventos-java-1-wh9jp,Fernanda Passos
+tbgr,tbgr-produtos-java-1-db2kp,Fernanda Passos
+tbgr,tbgr-produtos-java-1-nkdkg,Fernanda Passos
+tbgr,tbgr-servicos-cmm-java-1-5pg52,Fernanda Passos
+tbgr,tbgr-servicos-cmm-java-1-ffcx6,Fernanda Passos
+tbgr,tbgr-sincronizacao-tabelas-java-15-2vnd2,Fernanda Passos
+tbgr,tbgr-sincronizacao-tabelas-java-15-94zbk,Fernanda Passos
+tbgr,tbgr-sincronizacao-tabelas-java-15-dqfw7,Fernanda Passos
+tbgr,tbgr-sincronizacao-tabelas-java-15-mhd6d,Fernanda Passos
+tbgr,tbgr-sincronizacao-tabelas-java-15-qzkkh,Fernanda Passos
+tbgr,tbgr-sincronizacao-tabelas-java-15-z68lt,Fernanda Passos
+tbgr,tbgr-usuario-sistema-java-5-2sm5f,Fernanda Passos
+tbgr,tbgr-usuario-sistema-java-5-nvnzn,Fernanda Passos
+trfo,trfo-cmm-rest-java-11-64jxj,Fernanda Passos
+trfo,trfo-cmm-rest-java-11-nm7qz,Fernanda Passos
+trfo,trfo-cmm-rest-java-58b77c4ff4-dcrxl,Fernanda Passos
+trfo,trfo-cmm-rest-java-58b77c4ff4-hm2zl,Fernanda Passos
+trfo,trfo-contratacao-java-1-88cvm,Fernanda Passos
+trfo,trfo-contratacao-java-1-8tj48,Fernanda Passos
+trnf,trnf-cmm-rest-java-12-dmhpm,Simone/Equipe BAAS
+trnf,trnf-cmm-rest-java-12-lp2jk,Simone/Equipe BAAS
+trnf,trnf-cmm-rest-java-6b55b85cc8-6jnds,Simone/Equipe BAAS
+trnf,trnf-cmm-rest-java-6b55b85cc8-zh98j,Simone/Equipe BAAS
+tsbo,tsbo-consulta-investimentos-java-64455b668-6v6c7,Josias Silva/Claudia Yamamoto
+tsbo,tsbo-consulta-investimentos-java-64455b668-7jbwf,Josias Silva/Claudia Yamamoto
+tsbo,tsbo-consulta-investimentos-java-64455b668-b2fjg,Josias Silva/Claudia Yamamoto
+tsbo,tsbo-consulta-investimentos-java-64455b668-p4bb2,Josias Silva/Claudia Yamamoto
+tsbo,tsbo-extrato-mensal-java-5bf55549b4-9thsg,Josias Silva/Claudia Yamamoto
+tsbo,tsbo-extrato-mensal-java-5bf55549b4-lphnj,Josias Silva/Claudia Yamamoto
+urao,urao-informacoes-atendimento-java-766ddd4dd6-9llq8,Felipe Ono
+urao,urao-informacoes-atendimento-java-766ddd4dd6-l5dnf,Felipe Ono
