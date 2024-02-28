@@ -1,22 +1,19 @@
-import requests
-import base64
+import os
 import re
+import base64
 import gitlab
+import requests
+
 from dotenv import load_dotenv
+from project_map import get_dictionaries
 
 load_dotenv()
 
 session = requests.Session()
 
-gl = gitlab.Gitlab('https://git.original.com.br', private_token='b-GBompfzdj2jdZ_ydS-', session=session)
+gl = gitlab.Gitlab('https://git.original.com.br', private_token=os.getenv('GITLAB_TOKEN'), session=session)
 
-fernanda_dictionary = {
-  'ctas': ['ctas-cmm-rest-java', 'ctas-consulta-bloqueio-transacional-java', 'ctas-consulta-lancamentos-java']
-}
-
-dictionary = {
-  'atad': ['atad-esqueci-minha-senha-java', 'atad-liveness-servicos-java']
-}
+fernanda_dictionary , dictionary = get_dictionaries()
 
 forbidden_projects = []
 

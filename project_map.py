@@ -1,23 +1,30 @@
 import re
 import pandas as pd
 
-df_others = pd.read_csv("files/others-projects.csv")
+def get_dictionaries():
+  files = ["files/fernanda-projects.csv", "files/others-projects.csv"]
+  fernanda_dictionary = {}
+  others_dictionary = {}
 
-dictionary = {}
-regex = r"java.*"
+  for file in files:
+    df_others = pd.read_csv(file)
 
-for index, row in df_others.iterrows():
-  sigla_pod = row['Sigla_Pod']
-  pods = row['PODs']
+    dictionary = {}
+    regex = r"java.*"
 
-  if dictionary.get(sigla_pod) is None:
-    dictionary[sigla_pod] = set()
+    for index, row in df_others.iterrows():
+      sigla_pod = row['Sigla_Pod']
+      pods = row['PODs']
 
-  result = re.sub(regex, "", pods)
-  dictionary[sigla_pod].add(f"{result}java")
+      if dictionary.get(sigla_pod) is None:
+        dictionary[sigla_pod] = set()
 
-for key in dictionary:
-  values = list(dictionary.get(key))
-  dictionary[key] = values
+      result = re.sub(regex, "", pods)
+      dictionary[sigla_pod].add(f"{result}java")
 
-print(dictionary)
+    if file == "files/fernanda-projects.csv":
+      fernanda_dictionary = dictionary
+    else:
+      others_dictionary = dictionary
+
+  return fernanda_dictionary, others_dictionary
