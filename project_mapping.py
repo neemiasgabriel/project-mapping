@@ -18,9 +18,17 @@ def search_project_files(acronym):
     projects_list = gl.projects.list(search=acronym, all=True)
 
     for project in projects_list:
-      repo_files = project.repository_tree(ref='master', recursive=True, all=True)
+      try:
+        repo_files = project.repository_tree(ref='master', recursive=True, all=True)
+      except gitlab.exceptions.GitlabGetError as e:
+        if e.error_message == '404 Tree Not Found':
+          print(f"Project {project.name} has any folder structure")
+          repo_files = None
 
       file_filter = []
+
+      if repo_files is None:
+        continue
 
       for file in repo_files:
         file_name = file.get('name')
@@ -40,11 +48,12 @@ def search_project_files(acronym):
         path = filtered_file.get('path')
         file_content = project.files.get(ref='master', file_path=path)
         file_data = base64.b64decode(file_content.content).decode("utf-8").replace('\\n', '\n')
+
         print(file_data)
         print('\n')
 
 def main():
-  search_project_files('cdps')
+  search_project_files('apio')
 
 if __name__ == '__main__':
   main()

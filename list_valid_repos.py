@@ -25,5 +25,8 @@ for key in fernanda_dictionary:
     if e.error_message == '404 Project Not Found':
       print(f"Project {project_name} not found in project {key}")
       forbidden_projects.append(project_name)
+    if e.error_message == '404 Tree Not Found':
+      print(f"Project {project_name} has any folder structure")
+      forbidden_projects.append(project_name)
 
 print('\n'.join(gl_api.forbidden_projects))
