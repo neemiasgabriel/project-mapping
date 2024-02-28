@@ -12,13 +12,13 @@ def gitlab_api():
   session = requests.Session()
   return gitlab.Gitlab('https://git.original.com.br', private_token=os.getenv('GITLAB_TOKEN_COLLINS'), session=session)
 
-def search_project_files():
+def search_project_files(acronym_list):
   feign_regex = r".*/feign/.*\.java"
   regex = r"url\s*=\s*(?P<url_text>.*?)(?:,|\))"
   gl = gitlab_api()
   acronym_dictionary = {}
 
-  for acronym in fernanda_project_acronym:
+  for acronym in acronym_list:
     acronym_dictionary[acronym] = {}
     projects_list = gl.projects.list(search=acronym, all=True)
 
@@ -63,7 +63,7 @@ def search_project_files():
   return acronym_dictionary
 
 def main():
-  dictionary = search_project_files()
+  dictionary = search_project_files(other_projects_acronym)
   print(dictionary)
 
 if __name__ == '__main__':
