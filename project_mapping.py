@@ -1,4 +1,5 @@
 import os
+import re
 import base64
 import gitlab
 import requests
@@ -11,10 +12,14 @@ def gitlab_api():
   session = requests.Session()
   return gitlab.Gitlab('https://git.original.com.br', private_token=os.getenv('GITLAB_TOKEN_COLLINS'), session=session)
 
-def search_project_files(acronym):
+def search_project_files():
+  feign_regex = r".*/feign/.*\.java"
+  regex = r"url\s*=\s*(?P<url_text>.*?)(?:,|\))"
   gl = gitlab_api()
+  acronym_dictionary = {}
 
-  if acronym in fernanda_project_acronym:
+  for acronym in fernanda_project_acronym:
+    acronym_dictionary[acronym] = {}
     projects_list = gl.projects.list(search=acronym, all=True)
 
     for project in projects_list:
@@ -22,7 +27,7 @@ def search_project_files(acronym):
         repo_files = project.repository_tree(ref='master', recursive=True, all=True)
       except gitlab.exceptions.GitlabGetError as e:
         if e.error_message == '404 Tree Not Found':
-          print(f"Project {project.name} has any folder structure")
+          print(f"Project {project.name} has no folder structure")
           repo_files = None
 
       file_filter = []
@@ -33,27 +38,33 @@ def search_project_files(acronym):
       for file in repo_files:
         file_name = file.get('name')
 
-        if file_name in relevant_files:
+        # if file_name in relevant_files or re.match(feign_regex, file.get('path')):
+
+        if re.match(feign_regex, file.get('path')):
           file_info = {'name': file_name, 'path': file.get('path')}
           file_filter.append(file_info)
 
       if len(file_filter) == 0:
         continue
 
-      print(f'Project Name: {project.name}\n')
-
       for filtered_file in file_filter:
-        print(f'File Name: {filtered_file.get("name")}\n')
-
         path = filtered_file.get('path')
         file_content = project.files.get(ref='master', file_path=path)
         file_data = base64.b64decode(file_content.content).decode("utf-8").replace('\\n', '\n')
+        match = re.search(regex, file_data)
 
-        print(file_data)
-        print('\n')
+        acronym_dictionary[acronym][project.name] = []
+
+        if match:
+          url_text = match.group("url_text")
+          url_text = url_text.replace('"${', '').replace('}"', '')
+          acronym_dictionary[acronym][project.name].append({'file': filtered_file.get('name'), 'path': path, 'url': url_text})
+          print(f"Acronym: {acronym} | Project Name: {project.name} | File Name: {filtered_file.get('name')} | URL: {url_text}\n")
+  return acronym_dictionary
 
 def main():
-  search_project_files('apio')
+  dictionary = search_project_files()
+  print(dictionary)
 
 if __name__ == '__main__':
   main()
