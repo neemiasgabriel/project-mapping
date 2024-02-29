@@ -1,9 +1,11 @@
-fernanda_project_acronym = ['acad', 'apio', 'cdps', 'ctas', 'fepw', 'parc', 'rtto', 'tbgr', 'trfo', 'atmo', 'gcen', 'mcsv', 'ctasm']
+fernanda_project_acronym = ['acad', 'apio', 'cdps', 'ctas', 'fepw', 'parc', 'rtto', 'tbgr', 'trfo', 'atmo', 'gcen',
+                            'mcsv', 'ctasm']
 other_projects_acronym = ['cbic', 'conv', 'depb', 'pgto', 'port', 'trnf', 'alcd', 'antv', 'atad', 'atcl', 'atco',
                           'atfd', 'atkn', 'clbk', 'herm', 'retr', 'bpmo', 'gedc', 'pvfr', 'pvld', 'aant', 'bimo',
                           'cess', 'crgr', 'crmd', 'epat', 'fdos', 'gagc', 'glcr', 'glpf', 'glpj', 'intr', 'inve',
                           'invo', 'mbio', 'prev', 'tsbo']
-relevant_files = ['application.properties', 'application-hml.properties', 'application-dev.properties', 'application-prd.properties', 'bootstrap.yml']
+relevant_files = ['application.properties', 'application-hml.properties', 'application-dev.properties',
+                  'application-prd.properties', 'bootstrap.yml']
 
 fernanda_projects_dictionary = {
   "acad": {
@@ -512,4 +514,81 @@ fernanda_projects_dictionary = {
     "mcsv-bootstrap-java": [],
   },
   "ctasm": {},
+}
+
+other_projects_dictionary = {
+  "cbic": {},
+  "conv": {
+    "mcsv-converter-informacoes-cliente-java": [
+      {
+        "file": "SublimitsCustomerConsumerFeign.java",
+        "path": "src/main/java/br/com/original/mcsv/consumer/feign/SublimitsCustomerConsumerFeign.java",
+        "url": "glpf.consulta.limites.java.url",
+      }
+    ]
+  },
+  "depb": {},
+  "pgto": {
+    "pgto-ordem-pagamento-pix-java": [],
+    "pgto-cancela-baixa-titulos-pagfor-java": [],
+    "pgto-cmm-rest-java": [],
+  },
+  "port": {},
+  "trnf": {},
+  "alcd": {},
+  "antv": {},
+  "atad": {},
+  "atcl": {},
+  "atco": {},
+  "atfd": {},
+  "atkn": {},
+  "clbk": {},
+  "herm": {},
+  "retr": {},
+  "bpmo": {
+    "mcsv-interno-consultas-bpmo-java": [
+      {
+        "file": "CoholdersProspectionAttemptsFeignService.java",
+        "path": "src/main/java/br/com/original/mcsv/domain/coholder_attempts/service/feign/CoholdersProspectionAttemptsFeignService.java",
+        "url": "bpmo.incluir.cotitular.java.url",
+      }
+    ],
+    "mcsv-interno-atividades-bpmo-java": [],
+  },
+  "gedc": {},
+  "pvfr": {},
+  "pvld": {
+    "mcsv-relatorio-visitas-pvld-java": [
+      {
+        "file": "RelatorioVisitaFeign.java",
+        "path": "src/main/java/br/com/original/mcsv/feign/RelatorioVisitaFeign.java",
+        "url": "original.url.relatorio.visitas",
+      }
+    ]
+  },
+  "aant": {},
+  "bimo": {},
+  "cess": {
+    "mcsv-interno-consulta-cessao-credito-java": [
+      {
+        "file": "CreditInstalmentFeign.java",
+        "path": "src/main/java/br/com/original/mcsv/service/feign/CreditInstalmentFeign.java",
+        "url": "cess.consulta.transacoes.java.url",
+      }
+    ]
+  },
+  "crgr": {},
+  "crmd": {},
+  "epat": {},
+  "fdos": {},
+  "gagc": {},
+  "glcr": {},
+  "glpf": {},
+  "glpj": {},
+  "intr": {},
+  "inve": {"mcsv-interno-investimentos-java": []},
+  "invo": {},
+  "mbio": {},
+  "prev": {},
+  "tsbo": {},
 }

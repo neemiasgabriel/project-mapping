@@ -12,7 +12,7 @@ def generate_csv(file_name, csv_matrix):
   rows = ["{},{},{},{}".format(i, j, k, l) for i, j, k, l in csv_matrix]
   text = "\n".join(rows)
 
-  with open('files/project_mapping.csv', 'w') as f:
+  with open(f'files/{file_name}.csv', 'w') as f:
     f.write(text)
 
 def gitlab_api():
@@ -27,10 +27,8 @@ def search_project_files(acronym_list):
   feign_regex = r".*/feign/.*\.java"
   regex = r"url\s*=\s*(?P<url_text>.*?)(?:,|\))"
   gl = gitlab_api()
-  acronym_dictionary = {}
 
   for acronym in acronym_list:
-    acronym_dictionary[acronym] = {}
     projects_list = gl.projects.list(search=acronym, all=True)
 
     for project in projects_list:
@@ -64,20 +62,16 @@ def search_project_files(acronym_list):
         file_data = base64.b64decode(file_content.content).decode("utf-8").replace('\\n', '\n')
         match = re.search(regex, file_data)
 
-        acronym_dictionary[acronym][project.name] = []
-
         if match:
           url_text = match.group("url_text")
           url_text = url_text.replace('"${', '').replace('}"', '')
-          acronym_dictionary[acronym][project.name].append({'file': filtered_file.get('name'), 'path': path, 'url': url_text})
           csv_matrix.append([acronym, project.name, filtered_file.get('name'), url_text])
           print(f"Acronym: {acronym} | Project Name: {project.name} | File Name: {filtered_file.get('name')} | URL: {url_text}\n")
-  return acronym_dictionary, csv_matrix
+  return csv_matrix
 
 def main():
-  dictionary, csv_matrix = search_project_files(other_projects_acronym)
-  print(dictionary)
-  generate_csv('other_projects_table', csv_matrix)
+  csv_matrix = search_project_files(fernanda_project_acronym)
+  generate_csv('fernanda_projects_table.csv', csv_matrix)
 
 if __name__ == '__main__':
   main()
