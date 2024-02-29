@@ -51,6 +51,8 @@ def filter_files_by_list(repo_files, relevant_files):
   return file_filter
 
 def get_repo_files(project):
+  repo_files = None
+
   try:
     repo_files = project.repository_tree(ref='master', recursive=True, all=True)
   except gitlab.exceptions.GitlabGetError as e:
@@ -64,7 +66,9 @@ def get_file_data(project, path):
   file_content = project.files.get(ref='master', file_path=path)
   return base64.b64decode(file_content.content).decode("utf-8").replace('\\n', '\n')
 
-def feign_mapping_data(acronym, project, filtered_list):
+def feign_data_mapping(project, filtered_list):
+  data = []
+
   for filtered_file in filtered_list:
     file_data = get_file_data(project, filtered_file.get('path'))
     match = re.search(feign_url_regex, file_data)
@@ -72,10 +76,16 @@ def feign_mapping_data(acronym, project, filtered_list):
     if match:
       url_text = match.group("url_text")
       url_text = url_text.replace('"${', '').replace('}"', '')
-      print(f"Acronym: {acronym} | Project Name: {project.name} | File Name: {filtered_file.get('name')} | URL: {url_text}\n")
+      data.append({'file': filtered_file.get('name'), 'url': url_text})
 
-def application_properties_data(acronym, project, filtered_list):
+  return data
+
+def application_properties_data_mapping(project, filtered_list):
+  file_dictionary = {}
+
   for filtered_file in filtered_list:
+    file_name = filtered_file.get('name')
+    file_dictionary[file_name] = []
     file_data = get_file_data(project, filtered_file.get('path'))
 
     for line in file_data.splitlines():
@@ -84,38 +94,53 @@ def application_properties_data(acronym, project, filtered_list):
       if match:
         variable_name = match.group("name")
         url_text = match.group("url_text")
-        # csv_matrix.append([acronym, project.name, filtered_file.get('name'), variable_name, url_text])
-        print(
-          f"Acronym: {acronym} | Project Name: {project.name} | File Name: {filtered_file.get('name')} | Nome da Variável: {variable_name} | URL: {url_text}\n")
+        file_dictionary[file_name].append({'variable_name': variable_name, 'url_text': url_text})
 
-def bootstrap_data(acronym, project, filtered_list):
+  return file_dictionary
+
+def bootstrap_data_mapping(project, filtered_list):
+  data = []
+
   for filtered_file in filtered_list:
     file_data = get_file_data(project, filtered_file.get('path'))
     match = re.search(bootstrap_regex, file_data, flags=re.DOTALL)
 
-    # acronym_dictionary[acronym][project.name] = []
-
     if match:
       integrations = match.group("integrations")
       integrations = integrations.replace(',', ';')
-      # url_text = url_text.replace('"${', '').replace('}"', '')
-      # acronym_dictionary[acronym][project.name].append({'file': filtered_file.get('name'), 'path': path, 'url': url_text})
-      # csv_matrix.append([acronym, project.name, integrations])
-      print(f"Acronym: {acronym} | Project Name: {project.name} | Integrations: {integrations}\n")
+      data.append({'integrations': integrations})
+
+  return data
 
 def build_representation(api, acronym):
   project_list = api.projects.list(search=acronym, all=True)
+  acronym_dictionary = {}
+  acronym_dictionary[acronym] = {}
 
   for project in project_list:
     repo_files = get_repo_files(project)
 
     if repo_files is None:
-      return None
+      continue
+
+    acronym_dictionary[acronym][project.name] = {}
+
+    feign_files = filter_files_by_regex(repo_files, feign_folder_regex)
+    acronym_dictionary[acronym][project.name]['feign'] = feign_data_mapping(project, feign_files)
+
+    bootstrap_files = filter_files_by_list(repo_files, ['bootstrap.yml'])
+    acronym_dictionary[acronym][project.name]['bootstrap'] = bootstrap_data_mapping(project, bootstrap_files)
 
     properties_files = filter_files_by_list(repo_files, application_properties_files)
-    bootstrap_files = filter_files_by_list(repo_files, ['bootstrap.yml'])
-    feign_files = filter_files_by_regex(repo_files, feign_folder_regex)
+    acronym_dictionary[acronym][project.name]['application'] = application_properties_data_mapping(project, properties_files)
+
+  return acronym_dictionary
 
 def main():
   gl = gitlab_api()
-  build_representation(gl, "cdps")
+  acronym_dictionary = build_representation(gl, 'conv')
+
+  print(acronym_dictionary)
+
+if __name__ == '__main__':
+  main()
