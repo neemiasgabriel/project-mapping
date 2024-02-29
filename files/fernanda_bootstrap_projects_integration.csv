@@ -1,0 +1,213 @@
+Acronym,Projeto,Integrations
+acad,acad-consultas-dominios-java , cdps-corp; original-legacy
+apio,apio-canal-saque-digital-java , apio-corp;atmo-corp;atmo-integration
+apio,apio-canal-extratos-parceiro-java , ctas-corp; original-legacy; ctas-integration
+apio,apio-consultas-debito-automatico-java , conv-integration; apio-corp; apio-integration
+apio,apio-canal-aditamento-nao-correntista-java , empp-integration
+apio,apio-solicitacao-cartao-java , apio-corp.properties; glpf-integration
+apio,apio-boletos-parceiro-java , cbic-integration; parc-integration
+apio,apio-canal-gerador-pagamento-fatura-java , ctpl-integration; apio-integration
+apio,apio-retorno-recebiveis-java , intr-integration
+apio,apio-canal-clientes-java , cdps-corp; cdps-integration; fwcl-corp
+apio,apio-termo-aceite-java , apio-corp; apio-integration
+cdps,cdps-bens-cadastrados-java , acpf-integration;mcsv-integration;atcl-integration;cnio-corp; ctas-integration; ctcr-integration; original-legacy; cdps-corp
+cdps,cdps-consultar-informacoes-cliente-mint-java , cdps-corp; original-legacy; cdps-integration
+cdps,cdps-pendencias-clientes-java , cdps-corp; original-legacy
+cdps,cdps-atualizacao-dados-cadastrais-java , cdps-corp; cdps-integration; original-legacy; acad-integration
+cdps,cdps-orq-cadastro-nao-correntista-java , cdps-corp; original-legacy
+cdps,cdps-documentos-nao-correntista-java , gedc-integration
+cdps,cdps-orq-dados-cadastrais-java , cdps-integration; parc-integration
+cdps,cdps-dados-cadastrais-nao-correntista-java , cdps-corp; original-legacy
+cdps,cdps-contas-clientes-java , cdps-corp; original-legacy
+cdps,cdps-officer-java-ocp , cdps-corp; original-legacy
+cdps,cdps-pessoa-juridica-java , cdps-corp; cdps-integration; original-legacy
+cdps,cdps-atualizar-status-documento-batch-java , original-legacy; cdps-corp; fwcl-corp
+cdps,cdps-verifica-dados-irregulares-batch-java , original-legacy; cdps-corp; fwcl-corp
+cdps,cdps-officer-java , cdps-corp; original-legacy
+cdps,cdps-empresas-java , cdps-corp; original-legacy; cdps-integration; acad-integration
+cdps,cdps-verificar-cliente-java , cdps-corp; original-legacy
+cdps,cdps-produtos-java , cdps-corp; original-legacy
+cdps,cdps-sincronizacao-tabelas-java , cdps-corp; original-legacy
+cdps,cdps-orq-abertura-cadastro-java , cdps-corp; original-legacy
+cdps,cdps-enriquecer-dados-tef-parcerias-java , cdps-corp; original-legacy
+cdps,cdps-cmm-rest-java , acpf-integration;mcsv-integration;atcl-integration;cnio-corp;cdps-integration;original-legacy
+cdps,cdps-operacoes-clientes-java , cdps-corp; original-legacy
+cdps,cdps-servicos-cmm-java , cdps-corp; original-legacy
+cdps,cdps-obter-clientes-novos-atualizados-onu-batch-java , cdps-corp; original-legacy; fwcl-corp
+cdps,cdps-listas-restritivas-batch-java , cdps-corp; original-legacy; fwcl-corp
+cdps,cdps-abertura-cadastro-java , cdps-corp; original-legacy
+cdps,cdps-consultar-informacoes-cliente-java , cdps-corp; original-legacy
+cdps,cdps-validacao-dados-java , cdps-corp; original-legacy
+ctas,ctas-migracao-processa-saldo-java , ctas-corp; ctas-integration; original-legacy; fwcl-corp
+ctas,ctas-consumidor-validacao-saldo-migracao-java , ctas-corp; ctas-integration;original-legacy; atco-integration
+ctas,ctas-migracao-verifica-saldo-batch-java , ctas-corp; ctas-integration; original-legacy; fwcl-corp
+ctas,ctas-migracao-gera-bucket-batch-java , ctas-corp; ctas-integration; original-legacy; fwcl-corp
+ctas,ctas-migracao-transfere-saldo-batch-java , ctas-corp; ctas-integration; original-legacy; fwcl-corp
+ctas,ctas-expurgo-mov-parceiro-batch-java , ctas-corp; original-legacy
+ctas,ctas-carga-movimento-parceiro-batch-java , ctas-corp; original-legacy
+ctas,ctas-carga-tabela-subproduto-batch-java , ctas-corp; original-legacy
+ctas,ctas-expurgo-bucket-batch-java , ctas-corp; ctas-integration; original-legacy; fwcl-corp
+ctas,ctas-conciliacao-saldo-batch-java , ctas-corp; original-legacy
+ctas,ctas-portabilidade-salario-batch-java , ctas-corp; original-legacy; fwcl-corp
+ctas,ctas-tratar-saldo-aplicado-batch-java , ctas-corp; original-legacy
+ctas,ctas-bloqueio-valores-webjud-java , ctas-corp; original-legacy
+ctas,ctas-consulta-bloqueio-transacional-java , ctas-corp; original-legacy
+ctas,ctas-bloqueio-desbloqueio-valores-java , ctas-corp; original-legacy
+ctas,ctas-anular-bucket-batch-java , ctas-corp; ctas-integration; original-legacy; fwcl-corp
+ctas,ctas-liberacao-cheque-batch-java , ctas-corp; original-legacy
+ctas,ctas-exclusao-bloqueio-batch-java , ctas-corp; original-legacy
+ctas,ctas-consumidor-orquestrador-bucket-java , ctas-corp; ctas-integration;original-legacy; atco-integration
+ctas,ctas-retorno-bucket-batch-java , ctas-corp; ctas-integration; original-legacy; fwcl-corp
+ctas,ctas-erro-bucket-batch-java , ctas-corp; ctas-integration; original-legacy; fwcl-corp
+ctas,ctas-orquestrador-bucket-batch-java , ctas-corp; ctas-integration; original-legacy; fwcl-corp
+ctas,ctas-bucket-batch-java , ctas-corp; ctas-integration; original-legacy; fwcl-corp
+ctas,ctas-consulta-lancamentos-java , ctas-corp; original-legacy
+ctas,ctas-historico-contas-batch-java , ctas-corp; original-legacy
+ctas,ctas-expurgo-log-mov-batch-java , ctas-corp; original-legacy
+ctas,ctas-desbloqueio-saldo-batch-java , ctas-corp; original-legacy
+ctas,ctas-atualizacao-massiva-rotativo-batch-java , ctas-corp; original-legacy
+ctas,ctas-status-lancamentos-efetivar-java , ctas-corp;original-legacy
+ctas,ctas-consumidor-encerramento-contas-irregulares-java , original-legacy; ctas-corp; ctas-integration; atco-integration
+ctas,ctas-extratos-java , ctas-corp; original-legacy; ctas-integration
+ctas,ctas-consumidor-tabelas-sincronizacao-batch-java , ctas-corp; original-legacy; fwcl-corp
+ctas,ctas-consumidor-transacoes-efetivar-java , ctas-corp; ctas-integration;original-legacy; atco-integration
+ctas,ctas-validar-aptidao-transacao-conta-java , ctas-corp;original-legacy;tbgr-integration;rtto-integration
+ctas,ctas-bloqueio-desbloqueio-conta-java , ctas-corp; original-legacy; ctas-integration
+ctas,ctas-credito-imediato-java , acpf-integration;mcsv-integration;atcl-integration;original-legacy;ctas-corp;ctas-integration;cnio-corp
+ctas,pgto-consumidor-ctas-log-mov-java , pgto-corp; original-legacy
+ctas,ctas-consultas-id-fisico-java , ctas-corp; original-legacy
+ctas,ctas-orquestrador-transacoes-java , ctas-corp;ctas-integration;original-legacy;parc-integration
+ctas,ctas-validar-aptidao-debito-parceiro-java , ctas-corp; original-legacy; tbgr-integration
+ctas,ctas-lancamentos-a-efetivar-java , ctas-corp; original-legacy
+ctas,ctas-enriquecedor-transacoes-java , ctas-corp; original-legacy
+ctas,ctas-cmm-rest-java , acpf-integration;mcsv-integration;atcl-integration;cnio-corp;pgto-integration; original-legacy
+ctas,ctas-saldo-java , ctas-corp;original-legacy;rtto-integration;tbgr-integration
+ctas,ctas-solicita-encerramento-java , ctas-corp; ctas-integration; ctcr-integration; cdps-integration; rtto-integration; ceno-integration; fwcl-corp; intp-integration; original-legacy
+ctas,ctas-ccs-batch-java , ctas-corp; original-legacy; ctas-integration
+ctas,ctas-efetivar-credito-java , ctas-corp;original-legacy;cdps-integration;ctas-integration
+ctas,ctas-efetivar-debito-java , ctas-corp;original-legacy;rtto-integration
+fepw,fepw-manutencao-java , fepw-corp; fepw-integration
+fepw,fepw-cmm-rest-java , acpf-integration;mcsv-integration;atcl-integration;cnio-corp;fepw-integration; original-legacy
+parc,apio-canal-extratos-parceiro-java , ctas-corp; original-legacy; ctas-integration
+parc,ctas-expurgo-mov-parceiro-batch-java , ctas-corp; original-legacy
+parc,ctas-carga-movimento-parceiro-batch-java , ctas-corp; original-legacy
+parc,mcsv-interno-consulta-parcelados-java , epat-integration; acpf-integration; mcsv-integration; atcl-integration; cnio-corp
+parc,mcsv-pagamento-parcelado-java , mcsv-corp; mcsv-integration; empc-integration
+parc,mcsv-contratacao-emprestimo-parcelado-java , empc-integration
+parc,mcsv-consulta-emprestimo-parcelado-java , empc-integration; crpl-integration
+parc,mcsv-simulacao-emprestimo-parcelado-java , empc-integration
+parc,apio-boletos-parceiro-java , cbic-integration; parc-integration
+parc,parc-dados-cadastrais-parcerias-java , parc-corp; original-legacy
+parc,cdps-enriquecer-dados-tef-parcerias-java , cdps-corp; original-legacy
+parc,mcsv-transferencia-parceiro-java , pgto-corp; original-legacy; pgto-integration
+parc,ctas-validar-aptidao-debito-parceiro-java , ctas-corp; original-legacy; tbgr-integration
+parc,parc-abertura-cadastro-java , parc-corp; original-legacy
+parc,parc-callback-fila-saldo-java , parc-corp; original-legacy
+parc,parc-campanha-abertura-cadastro-java , parc-corp; original-legacy
+rtto,rtto-consultar-contrato-cheque-especial-java , rtto-corp; original-legacy
+rtto,rtto-repactuacao-taxas-batch-java , rtto-corp; original-legacy; fwcl-corp
+rtto,rtto-operacoes-renegociacao-java , fwcl-corp; original-legacy; rtto-corp; tbgr-integration; cdps-integration; crpl-integration; ctas-integration; rnco-integration
+rtto,rtto-consultar-cheque-especial-java , rtto-corp; original-legacy
+rtto,rtto-manutencao-limite-java , original-legacy; rtto-corp; rtto-integration
+rtto,rtto-operacoes-java , mtpr-integration;rtto-corp;original-legacy
+tbgr,tbgr-dominios-java , acpf-integration;mcsv-integration;atcl-integration;cnio-corp; ctas-integration; ctcr-integration; original-legacy; tbgr-corp
+tbgr,tbgr-sincronizacao-tabelas-java , original-legacy; tbgr-corp; conv-integration; tbgr-integration
+tbgr,tbgr-eventos-java , tbgr-corp; original-legacy
+tbgr,tbgr-produtos-java , original-legacy; tbgr-corp; conv-integration; tbgr-integration
+tbgr,tbgr-consultas-java , original-legacy; tbgr-corp; conv-integration; tbgr-integration
+tbgr,tbgr-servicos-cmm-java , original-legacy; tbgr-corp; conv-integration; tbgr-integration
+trfo,trfo-tratar-cobranca-batch-java , trfo-corp; original-legacy
+trfo,trfo-cmm-rest-java , original-legacy; ctas-integration ; acpf-integration ; mcsv-integration ; atcl-integration ;cnio-corp
+trfo,trfo-servicos-cmm-java , original-legacy; ctas-integration ; acpf-integration ; mcsv-integration ; atcl-integration ;cnio-corp
+trfo,trfo-servicos-java , original-legacy; trfo-corp
+trfo,trfo-contratacao-java , original-legacy; trfo-corp
+mcsv,mcsv-project-generator , #reip-integration
+mcsv,mcsv-project-generator , #reip-integration
+mcsv,mcsv-cobranca-tarifas-java , cbic-integration; fwcl-corp
+mcsv,mcsv-open-banking-handoff-java , mcsv-corp; opbk-integration
+mcsv,mcsv-cartao-goleiro-java , ctcr-integration
+mcsv,mcsv-interno-renegociacao-posvenda-java , mcsv-corp; mcsv-integration; empc-integration; rnco-integration; cdps-integration
+mcsv,mcsv-interno-consulta-saldo-java , mcsv-corp; mcsv-integration; ctas-integration
+mcsv,mcsv-interno-dominios-java , acpf-integration;mcsv-integration;atcl-integration; cnio-corp; ctas-integration; ctcr-integration; original-legacy; acad-integration; tbgr-integration
+mcsv,mcsv-desafios-notificacoes-java , retr-integration
+mcsv,mcsv-integracao-appsflyer-java , camp-integration
+mcsv,mcsv-interno-bens-cadastrados-java , cdps-integration; bpmo-integration; acpf-integration; atcl-integration; mcsv-integration ;tbgr-integration
+mcsv,mcsv-interno-consulta-cessao-credito-java , mcsv-integration; cess-integration; cnio-corp; acpf-integration; mcsv-integration; atcl-integration
+mcsv,mcsv-interno-consulta-parcelados-java , epat-integration; acpf-integration; mcsv-integration; atcl-integration; cnio-corp
+mcsv,mcsv-converter-informacoes-cliente-java , mcsv-integration; ctcr-integration; cdps-integration; glpf-integration
+mcsv,mcsv-pagamento-parcelado-java , mcsv-corp; mcsv-integration; empc-integration
+mcsv,mcsv-desafios-liveness-java , atad-integration; retr-integration
+mcsv,mcsv-informacoes-atendimento-java , mcsv-corp; mcsv-integration; original-legacy; urao-integration;  ctcr-integration
+mcsv,mcsv-interno-consulta-credito-rotativos-java , mcsv-integration; ctas-integration; cnio-corp; cdps-integration; cnio-integration; acpf-integration; atcl-integration; rtto-integration
+mcsv,mcsv-taxa-cedente-java , aant-integration
+mcsv,mcsv-consulta-contrato-renegociado-java , mcsv-corp; mcsv-integration; rnco-integration; crpl-integration; cdps-integration
+mcsv,mcsv-contratacao-emprestimo-parcelado-java , empc-integration
+mcsv,mcsv-consulta-emprestimo-parcelado-java , empc-integration; crpl-integration
+mcsv,mcsv-token-pf-java , atkn-integration
+mcsv,mcsv-interno-consultas-bpmo-java , mcsv-corp; mcsv-integration; acpf-integration; atcl-integration; cnio-corp; cnio-integration; bpmo-integration
+mcsv,mcsv-simulacao-emprestimo-parcelado-java , empc-integration
+mcsv,mcsv-operacoes-cartoes-java , ctcr-integration
+mcsv,mcsv-aprovacao-proposta-java , rnco-corp; rnco-integration; cdps-corp; fwcl-corp; empp-integration
+mcsv,mcsv-interno-parametrizacao-perfis-java , fwcl-corp; empc-integration
+mcsv,mcsv-carteira-cobranca-digital-java , cbic-integration; fwcl-corp
+mcsv,mcsv-abertura-conta-representante-pj-java , mcsv-corp; mcsv-integration; reip-integration
+mcsv,mcsv-incluir-cotitular-java , bpmo-integration
+mcsv,mcsv-cobranca-lote-java , cbic-integration; fwcl-corp
+mcsv,mcsv-interno-restricao-cliente-java , mcsv-corp; mcsv-integration; mint-integration; alcd-integration
+mcsv,mcsv-consultas-cartoes-java , mcsv-corp; mcsv-integration; ctcr-integration
+mcsv,mcsv-renegociacao-dividas-correntista-java , fwcl-corp; rnco-corp; rnco-integration; glpf-integration; crpl-integration; ctpl-integration; ceno-integration; cdps-integration; ctcr-integration
+mcsv,mcsv-abertura-conta-complemento-pj-java , reip-integration
+mcsv,mcsv-interno-renegociacao-dividas-correntista-java , mcsv-corp; mcsv-integration; rnco-integration; cdps-integration
+mcsv,mcsv-renegociacao-manutencao-java , fwcl-corp; rnco-corp; rnco-integration
+mcsv,mcsv-simulacao-emprestimo-correntista-java , mcsv-corp; empp-integration
+mcsv,mcsv-interno-consultas-emprestimo-correntista-java , mcsv-corp; empp-corp; atco-integration; mcsv-integration; empp-integration; crpl-integration; empc-integration; glpf-integration
+mcsv,mcsv-emprestimo-correntista-java , empp-corp; empp-integration
+mcsv,mcsv-renegociacao-java , rneg-corp; rneg-integration
+mcsv,mcsv-interno-atendimento-java , acpf-integration; mcsv-integration; atcl-integration; cnio-corp; obot-integration; original-legacy; ator-integration
+mcsv,mcsv-pag-original-java , pgto-integration
+mcsv,mcsv-atualizacao-dados-cadastrais-java , cdps-integration; fwcl-corp; acad-integration
+mcsv,mcsv-credito-pessoal-java , mcsv-corp; crpl-integration
+mcsv,mcsv-captura-documentos-java , mcsv-corp; glpj-integration; gedc-integration
+mcsv,mcsv-desafios-senha-cartao-java , mcsv-corp; mcsv-integration; retr-integration
+mcsv,mcsv-renegociacao-dividas-java , mcsv-corp; mcsv-integration; rneg-integration; cdps-integration
+mcsv,mcsv-proposta-java , mcsv-corp;mcsv-integration;empp-integration;maca-integration;ceno-integration;cbic-integration;gmnf-integration;cdps-integration;card-integration;rneg-integration;gedc-integration #      name: mcsv-corp;mcsv-integration
+mcsv,mcsv-dados-cadastrais-pu-java , mbio-integration; cdps-integration; fwcl-corp
+mcsv,mcsv-manutencao-cadastro-pj-java , mcsv-corp; atcl-integration; cdps-integration
+mcsv,mcsv-open-banking-consentimentos-java , mcsv-corp
+mcsv,mcsv-liquidacoes-detran-java , mcsv-corp; conv-integration; pgto-integration
+mcsv,mcsv-interno-atualizacao-cadastral-java , mcsv-integration; ator-integration; cdps-integration
+mcsv,mcsv-permissao-optin-java , intr-integration
+mcsv,mcsv-interno-contato-cadastro-java , acpf-integration;mcsv-integration;atcl-integration;cnio-corp;cdps-integration
+mcsv,mcsv-interno-esqueci-minha-senha-java , acpf-integration;mcsv-integration;atcl-integration;cnio-corp;atcl-integration
+mcsv,mcsv-liveness-appkey-java , atad-integration; retr-integration; atcl-integration; atco-integration; reip-integration
+mcsv,mcsv-interno-informe-rendimentos-java , cnio-corp; fisca-integration; acpf-integration; mcsv-integration; atcl-integration
+mcsv,mcsv-interno-analise-callback-java , cnio-corp; acpf-integration; mcsv-integration; atcl-integration; clbk-integration
+mcsv,mcsv-interno-manutencao-infracao-java , pvld-corp; pvld-integration; pgto-integration; aspa-integration; cend-integration
+mcsv,mcsv-interno-consultas-pix-java , acpf-integration;mcsv-integration;atcl-integration;cnio-corp;ctas-integration;intp-integration;pgto-integration
+mcsv,mcsv-cartao-java , ctcr-integration
+mcsv,mcsv-interno-capital-giro-java , mcsv-corp; mcsv-integration; empp-integration; cosg-integration; acpf-integration; atcl-integration; cnio-corp
+mcsv,mcsv-interno-cobranca-digital-java , cbic-corp; cbic-integration; original-legacy; fwcl-corp; cnio-corp; acpf-integration; mcsv-integration; atcl-integration
+mcsv,mcsv-interno-positivacao-cliente-java , mcsv-corp; mcsv-integration; cdps-corp; cdps-integration; ctas-corp; acpf-integration; atcl-integration; ctas-integration; cnio-corp; cnio-integration
+mcsv,mcsv-interno-investimentos-java , mcsv-corp; mcsv-integration; original-legacy; acpf-integration; atcl-integration; cnio-corp; fdos-integration; inve-integration; tsbo-integration
+mcsv,mcsv-interno-seguros-java , cosg-integration; acpf-integration ; mcsv-integration ; atcl-integration ;cnio-corp
+mcsv,mcsv-transferencia-parceiro-java , pgto-corp; original-legacy; pgto-integration
+mcsv,mcsv-interno-prospects-java , cnio-corp; mcsv-integration; reip-integration; meta-integration; acpf-integration; atcl-integration
+mcsv,mcsv-interno-contatos-java , acpf-integration;mcsv-integration;atcl-integration;cnio-corp;meta-integration;reip-integration;mcsv-integration
+mcsv,mcsv-interno-pagamentos-java , pgto-integration; acpf-integration ; mcsv-integration ; atcl-integration ;cnio-corp
+mcsv,mcsv-interno-gestao-limite-credito-java , glpf-integration ; glcr-integration ; acpf-integration ; mcsv-integration ; atcl-integration ;cnio-corp; empp-integration
+mcsv,mcsv-interno-contas-java , mcsv-corp; mcsv-integration; cdps-corp; cdps-integration; ctas-corp; acpf-integration; atcl-integration; ctas-integration; cnio-corp; cnio-integration
+mcsv,mcsv-abertura-conta-token-java , reip-integration
+mcsv,mcsv-abertura-conta-java , lgpd-integration; reip-integration; cdps-integration; atad-integration; autr-integration; atco-integration; obot-integration; ceno-integration
+mcsv,mcsv-abertura-conta-documento-java , reip-integration
+mcsv,mcsv-token-atendimento-java , cnio-corp; original-legacy; mcsv-integration; acpf-integration; atcl-integration
+mcsv,mcsv-interno-tarefas-ofertas-java , cnio-corp; original-legacy; obot-corp; cdps-integration; acpf-integration; mcsv-integration; atcl-integration
+mcsv,mcsv-interno-agenda-comercial-java , acpf-integration;mcsv-integration;atcl-integration;cnio-corp;cdps-integration
+mcsv,mcsv-mesa-credito-pj-java , glpj-integration; cdps-integration; glcr-integration
+mcsv,mcsv-interno-retencao-callback-java , acpf-integration;mcsv-integration;atcl-integration;cnio-corp;retr-integration;pgto-integration;alcd-integration;clbk-integration
+mcsv,mcsv-interno-atividades-bpmo-java , acpf-integration;mcsv-integration;atcl-integration;cnio-corp
+mcsv,mcsv-capital-giro-java , cbic-integration; cosg-integration; ctas-integration; empp-integration; intr-integration
+mcsv,mcsv-interno-credito-java , cnio-corp; cdps-integration; glpj-integration; glcr-integration; gedc-integration; acpf-integration; mcsv-integration; atco-integration; clbk-integration; atcl-integration
+mcsv,mcsv-interno-documentos-java , gedc-integration; acpf-integration ; mcsv-integration ; atcl-integration ;cnio-corp; glpj-integration
+mcsv,mcsv-interno-gerentes-java , meta-integration; reip-integration; meta-corp; acpf-integration; mcsv-integration; atcl-integration; cnio-corp; cdps-integration
+mcsv,mcsv-interno-cadastro-java , meta-integration; cdps-integration; atcl-integration; cnio-corp; mcsv-integration; acpf-integration; reip-integration
+mcsv,mcsv-bootstrap-java , epat-corp; cnio-corp; acpf-integration; mcsv-integration; epat-integration; atco-integration; clbk-integration; atcl-integration; cdps-integration; cdps-corp

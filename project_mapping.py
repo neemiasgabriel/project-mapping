@@ -49,8 +49,6 @@ def search_project_files(acronym_list):
       for file in repo_files:
         file_name = file.get('name')
 
-        # if file_name in relevant_files or re.match(feign_regex, file.get('path')):
-
         if re.match(feign_regex, file.get('path')):
           file_info = {'name': file_name, 'path': file.get('path')}
           file_filter.append(file_info)

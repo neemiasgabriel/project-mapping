@@ -21,16 +21,16 @@ def gitlab_api():
 
 def search_project_files(acronym_list):
   csv_matrix = []
-  header = ["Sigla", "Nome da Variavel","URL"]
+  header = ["Sigla", "Projeto", "Integrations"]
   csv_matrix.append(header)
 
-  regex = r"(?P<name>.*?)\s*=\s*(https?://)(?P<url_text>.*)"
+  regex = r"name\s*:\s*(?P<integrations>.*)"
   gl = gitlab_api()
+  acronym_dictionary = {}
 
   for acronym in acronym_list:
-    fwms_regex = f"{acronym}-integration.properties"
-
-    projects_list = gl.projects.list(search="fwms", all=True)
+    acronym_dictionary[acronym] = {}
+    projects_list = gl.projects.list(search=acronym, all=True)
 
     for project in projects_list:
       try:
@@ -48,9 +48,7 @@ def search_project_files(acronym_list):
       for file in repo_files:
         file_name = file.get('name')
 
-        # if file_name in relevant_files or re.match(feign_regex, file.get('path')):
-
-        if re.match(fwms_regex, file.get('path')):
+        if file_name == "bootstrap.yml":
           file_info = {'name': file_name, 'path': file.get('path')}
           file_filter.append(file_info)
 
@@ -61,20 +59,23 @@ def search_project_files(acronym_list):
         path = filtered_file.get('path')
         file_content = project.files.get(ref='master', file_path=path)
         file_data = base64.b64decode(file_content.content).decode("utf-8").replace('\\n', '\n')
+        match = re.search(regex, file_data, flags=re.DOTALL)
 
-        for line in file_data.splitlines():
-          match = re.search(regex, line)
+        # acronym_dictionary[acronym][project.name] = []
 
-          if match:
-            variable_name = match.group("name")
-            url_text = match.group("url_text")
-            csv_matrix.append([acronym, variable_name, url_text])
-            print(f"Acronym: {acronym} | Nome da Variável: {variable_name} | URL: {url_text}\n")
-  return csv_matrix
+        if match:
+          integrations = match.group("integrations")
+          integrations = integrations.replace(',',';')
+          # url_text = url_text.replace('"${', '').replace('}"', '')
+          # acronym_dictionary[acronym][project.name].append({'file': filtered_file.get('name'), 'path': path, 'url': url_text})
+          csv_matrix.append([acronym, project.name, integrations])
+          print(f"Acronym: {acronym} | Project Name: {project.name} | Integrations: {integrations}\n")
+  return acronym_dictionary, csv_matrix
 
 def main():
-  csv_matrix = search_project_files(fernanda_project_acronym)
-  generate_csv('fernanda_fwms_variables', csv_matrix)
+  dictionary, csv_matrix = search_project_files(fernanda_project_acronym)
+  print(dictionary)
+  generate_csv('fernanda_bootstrap_projects_integration', csv_matrix)
 
 if __name__ == '__main__':
   main()
