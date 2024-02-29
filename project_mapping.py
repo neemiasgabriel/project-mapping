@@ -12,7 +12,7 @@ def generate_csv(file_name, csv_matrix):
   rows = ["{},{},{},{}".format(i, j, k, l) for i, j, k, l in csv_matrix]
   text = "\n".join(rows)
 
-  with open('files/project_mapping.csv', 'w') as f:
+  with open('files/other_projects_table.csv', 'w') as f:
     f.write(text)
 
 def gitlab_api():
