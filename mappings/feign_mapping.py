@@ -12,7 +12,7 @@ def generate_csv(file_name, csv_matrix):
   rows = ["{},{},{},{}".format(i, j, k, l) for i, j, k, l in csv_matrix]
   text = "\n".join(rows)
 
-  with open('files/other_projects_table.csv', 'w') as f:
+  with open('../files/backup/other_projects_table.csv', 'w') as f:
     f.write(text)
 
 def gitlab_api():
@@ -76,6 +76,21 @@ def main():
   dictionary, csv_matrix = search_project_files(other_projects_acronym)
   print(dictionary)
   generate_csv('other_projects_table', csv_matrix)
+
+
+def feign_mapping_data(acronym, project, file_list):
+  regex = r"url\s*=\s*(?P<url_text>.*?)(?:,|\))"
+
+  for filtered_file in file_list:
+    path = filtered_file.get('path')
+    file_content = project.files.get(ref='master', file_path=path)
+    file_data = base64.b64decode(file_content.content).decode("utf-8").replace('\\n', '\n')
+    match = re.search(regex, file_data)
+
+    if match:
+      url_text = match.group("url_text")
+      url_text = url_text.replace('"${', '').replace('}"', '')
+      print(f"Acronym: {acronym} | Project Name: {project.name} | File Name: {filtered_file.get('name')} | URL: {url_text}\n")
 
 if __name__ == '__main__':
   main()

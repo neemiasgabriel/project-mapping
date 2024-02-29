@@ -48,6 +48,10 @@ def search_project_files(acronym_list):
       for file in repo_files:
         file_name = file.get('name')
 
+        if file_name.startswith('acad', 'apio', 'cdps', 'ctas', 'fepw', 'parc', 'rtto', 'tbgr', 'trfo', 'atmo', 'gcen',
+                            'mcsv', 'ctasm') or file_name.has('-corp'):
+          continue
+
         # if file_name in relevant_files or re.match(feign_regex, file.get('path')):
 
         if re.match(fwms_regex, file.get('path')):
