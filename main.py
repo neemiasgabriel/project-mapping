@@ -179,7 +179,7 @@ def main():
   if acronym_dictionary is None:
     acronym_dictionary = {}
 
-  acronym_dictionary = build_representation(api=gl, acronym='pgto', dictionary=acronym_dictionary)
+  acronym_dictionary = build_representation(api=gl, acronym='inve', dictionary=acronym_dictionary)
   save_acronym_dictionary(acronym_dictionary)
 
 if __name__ == '__main__':
