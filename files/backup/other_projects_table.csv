@@ -1,0 +1,17 @@
+Sigla,Projeto,Arquivo,URL
+conv,mcsv-converter-informacoes-cliente-java,CustomerDataConsumerFeign.java,cdps.consultar.informacoes.cliente.java.url
+conv,mcsv-converter-informacoes-cliente-java,CustomerOperationsConsumerFeign.java,cdps.operacoes.clientes.java.url
+conv,mcsv-converter-informacoes-cliente-java,SublimitsCustomerConsumerFeign.java,glpf.consulta.limites.java.url
+pgto,pgto-ordem-pagamento-pix-java,AutbankInstantPaymentAdressingFeign.java,autbank.instant.payment.addressing
+pgto,pgto-ordem-pagamento-pix-java,AutbankInstantPaymentFeign.java,autbank.instant.payment
+pgto,pgto-cancela-baixa-titulos-pagfor-java,CtasFeignClient.java,ctas.efetivar.credito.java.url
+pgto,pgto-cmm-rest-java,AccountFeingService.java,ctas.cmm.rest.java.url
+bpmo,mcsv-interno-consultas-bpmo-java,CoholdersProspectionAttemptsFeignService.java,bpmo.incluir.cotitular.java.url
+bpmo,mcsv-interno-atividades-bpmo-java,TaskBPMFeignService.java,original.url.rest.bpm.task.url.base
+bpmo,mcsv-interno-atividades-bpmo-java,TaskNativeBPMFeignService.java,original.url.rest.bpm.url.base
+pvld,mcsv-relatorio-visitas-pvld-java,RelatorioVisitaFeign.java,original.url.relatorio.visitas
+cess,mcsv-interno-consulta-cessao-credito-java,CreditInstalmentFeign.java,cess.consulta.transacoes.java.url
+inve,mcsv-interno-investimentos-java,CustomerInvestmentFeignService.java,inve.suitability.java.url
+inve,mcsv-interno-investimentos-java,FixedIncomeFeingService.java,inve.produtos.java.url
+inve,mcsv-interno-investimentos-java,FixedIncomeV2FeingService.java,tsbo.consulta.investimentos.java.url
+inve,mcsv-interno-investimentos-java,FundsFeingService.java,fdos.consulta.investimentos.java.url
