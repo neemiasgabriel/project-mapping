@@ -19,7 +19,10 @@ load_dotenv()
 
 def gitlab_api():
   session = requests.Session()
-  return gitlab.Gitlab('https://git.original.com.br', private_token=os.getenv('GITLAB_TOKEN_COLLINS'), session=session)
+  return gitlab.Gitlab(
+    'https://git.original.com.br',
+    private_token=os.getenv('GITLAB_TOKEN_COLLINS'),
+    session=session)
 
 def generate_csv_bootstrap(file_name, csv_matrix):
   rows = ["{},{},{}".format(i, j, k) for i, j, k in csv_matrix]
@@ -177,9 +180,8 @@ def main():
   if acronym_dictionary is None:
     acronym_dictionary = {}
 
-  for acronym in fernanda_acronyns:
-    acronym_dictionary = build_representation(api=gl, acronym=acronym, dictionary=acronym_dictionary)
-    save_acronym_dictionary(acronym_dictionary)
+  acronym_dictionary = build_representation(api=gl, acronym='pgto', dictionary=acronym_dictionary)
+  save_acronym_dictionary(acronym_dictionary)
 
 if __name__ == '__main__':
   main()
