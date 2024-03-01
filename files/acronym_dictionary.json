@@ -411,7 +411,7 @@
       "feign": [],
       "bootstrap": [
         {
-          "integrations": "cdps-corp; original-legacy\n"
+          "integrations": "cdps-corp; original-legacy"
         }
       ],
       "application": {
@@ -435,7 +435,7 @@
       "feign": [],
       "bootstrap": [
         {
-          "integrations": "cdps-corp; cdps-integration; original-legacy; acad-integration\n"
+          "integrations": "cdps-corp; cdps-integration; original-legacy; acad-integration"
         }
       ],
       "application": {
@@ -582,7 +582,7 @@
       "feign": [],
       "bootstrap": [
         {
-          "integrations": "cdps-corp; original-legacy\n"
+          "integrations": "cdps-corp; original-legacy"
         }
       ],
       "application": {

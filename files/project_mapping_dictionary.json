@@ -1,0 +1,62 @@
+{
+  "mcsv": {
+    "conv": {
+      "mcsv-converter-informacoes-cliente-java": []
+    },
+    "pgto": {
+      "pgto-cmm-rest-java": []
+    },
+    "bpmo": {
+      "mcsv-interno-consultas-bpmo-java": [],
+      "mcsv-interno-atividades-bpmo-java": []
+    },
+    "cess": {
+      "mcsv-interno-consulta-cessao-credito-java": []
+    },
+    "inve": {
+      "mcsv-interno-investimentos-java": []
+    }
+  },
+  "cdps": {
+    "conv": {
+      "mcsv-converter-informacoes-cliente-java": [
+        "cdps.consultar.informacoes.cliente.java.url",
+        "cdps.operacoes.clientes.java.url"
+      ]
+    },
+    "pgto": {
+      "pgto-consumidor-iniciador-pagamentos-java": [],
+      "pgto-orquestrador-boletos-java": [],
+      "pgto-callback-ted-java": [],
+      "pgto-enviar-ted-java": []
+    }
+  },
+  "ctas": {
+    "pgto": {
+      "pgto-consumidor-estorno-boleto-java": [],
+      "pgto-iniciador-pagamentos-java": [],
+      "pgto-liquidacoes-detran-java": [],
+      "pgto-orquestrador-boletos-java": [],
+      "pgto-consumidor-erros-tributos-consumos-java": [],
+      "pgto-cmm-rest-java": [
+        "ctas.cmm.rest.java.url"
+      ],
+      "pgto-callback-ted-java": [],
+      "pgto-enviar-ted-java": []
+    },
+    "cess": {
+      "ctas-migracao-processa-saldo-java": []
+    }
+  },
+  "tbgr": {
+    "pgto": {
+      "pgto-codigo-barras-boleto-java": [],
+      "pgto-grade-horaria-java": [],
+      "pgto-orquestrador-boletos-java": [],
+      "pgto-boletos-java": [],
+      "pgto-callback-ted-java": [],
+      "pgto-enviar-ted-java": [],
+      "pgto-comprovantes-java": []
+    }
+  }
+}
