@@ -11,8 +11,7 @@ from resources import (
   feign_folder_regex,
   feign_url_regex,
   bootstrap_regex,
-  ignored_files,
-  fernanda_acronyns
+  ignored_files
 )
 
 load_dotenv()
