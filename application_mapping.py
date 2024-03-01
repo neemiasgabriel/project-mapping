@@ -26,6 +26,17 @@ from resources import (
 acad_cluster = 'vsacadprdback:5052'
 ctas_cluster = 'bcopmswrkctn01:8642'
 
+def add_dictionary_entry(dictionary_mapping, integration, acronym, project):
+  if dictionary_mapping.get(integration) is None:
+    dictionary_mapping[integration] = {}
+
+  if dictionary_mapping[integration].get(acronym) is None:
+    dictionary_mapping[integration][acronym] = {}
+
+  if dictionary_mapping[integration][acronym].get(project) is None:
+    dictionary_mapping[integration][acronym][project] = []
+
+
 def load_file(file_path):
   with open(file_path, 'r') as f:
     try:
@@ -54,6 +65,9 @@ def main():
       bootstrap = other_projects_dict[acronym][project].get('bootstrap')
       valid_integrations = []
 
+      add_dictionary_entry(project_mapping_dictionary, "acad", acronym, project)
+      add_dictionary_entry(project_mapping_dictionary, "ctas", acronym, project)
+
       if len(bootstrap) != 0:
         integrations = bootstrap[0].get('integrations')
         integrations = integrations.split(';')
@@ -63,14 +77,7 @@ def main():
 
           if integration in fernanda_acronyns:
             valid_integrations.append(integration)
-            if project_mapping_dictionary.get(integration) is None:
-              project_mapping_dictionary[integration] = {}
-
-            if project_mapping_dictionary[integration].get(acronym) is None:
-              project_mapping_dictionary[integration][acronym] = {}
-
-            if project_mapping_dictionary[integration][acronym].get(project) is None:
-              project_mapping_dictionary[integration][acronym][project] = []
+            add_dictionary_entry(project_mapping_dictionary, integration, acronym, project)
 
         feign = other_projects_dict[acronym][project].get('feign')
 
@@ -80,10 +87,28 @@ def main():
               if file.get('url').startswith(integration):
                 project_mapping_dictionary[integration][acronym][project].append(file.get('url'))
 
-          print(project_mapping_dictionary)
+      if other_projects_dict[acronym][project]["application"] is None:
+        continue
+
+      application_prd = other_projects_dict[acronym][project]["application"].get("application-prd.properties")
+
+      if application_prd is not None and len(application_prd) != 0:
+        for prd in application_prd:
+          if prd.get('url_text').startswith(acad_cluster):
+            project_mapping_dictionary["acad"][acronym][project].append(prd.get('url_text'))
+          if prd.get('url_text').startswith(f'{ctas_cluster}/ctas'):
+            project_mapping_dictionary["ctas"][acronym][project].append(prd.get('url_text'))
+
+      application = other_projects_dict[acronym][project]["application"].get("application.properties")
+
+      if application is not None and len(application) != 0:
+        for prd in application:
+          if prd.get('url_text').startswith(acad_cluster):
+            project_mapping_dictionary["acad"][acronym][project].append(prd.get('url_text'))
+          if prd.get('url_text').startswith(f'{ctas_cluster}/ctas'):
+            project_mapping_dictionary["ctas"][acronym][project].append(prd.get('url_text'))
 
   save_acronym_dictionary(project_mapping_dictionary, 'project_mapping_dictionary')
-
 
 
 if __name__ == '__main__':
