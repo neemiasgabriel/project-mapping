@@ -1,10 +1,19 @@
 import os
 import re
+import json
 import base64
 import gitlab
 import requests
 from dotenv import load_dotenv
-from resources import application_properties_files, application_properties_regex, feign_folder_regex, feign_url_regex, bootstrap_regex
+from resources import (
+  application_properties_files,
+  application_properties_regex,
+  feign_folder_regex,
+  feign_url_regex,
+  bootstrap_regex,
+  ignored_files,
+  fernanda_acronyns
+)
 
 load_dotenv()
 
@@ -55,6 +64,12 @@ def get_repo_files(project):
 
   try:
     repo_files = project.repository_tree(ref='master', recursive=True, all=True)
+
+    if repo_files is not None:
+      repo_files = [file for file in repo_files if file.get('name') not in ignored_files]
+
+      if len(repo_files) == 0:
+        repo_files = None
   except gitlab.exceptions.GitlabGetError as e:
     if e.error_message == '404 Tree Not Found':
       print(f"Project {project.name} has no folder structure")
@@ -112,35 +127,59 @@ def bootstrap_data_mapping(project, filtered_list):
 
   return data
 
-def build_representation(api, acronym):
+def save_acronym_dictionary(acronym_dictionary):
+  with open('files/acronym_dictionary.json', 'w') as f:
+    try:
+      json.dump(acronym_dictionary, f)
+    except json.decoder.JSONDecodeError:
+      print(acronym_dictionary)
+
+def load_acronym_dictionary():
+  with open('files/acronym_dictionary.json', 'r+') as f:
+    try:
+      return json.load(f)
+    except json.decoder.JSONDecodeError:
+      return None
+
+def build_representation(api, acronym, dictionary):
   project_list = api.projects.list(search=acronym, all=True)
-  acronym_dictionary = {}
-  acronym_dictionary[acronym] = {}
+
+  if dictionary.get(acronym) is None:
+    dictionary[acronym] = {}
 
   for project in project_list:
+    if not project.name.endswith('-java'):
+      continue
+
     repo_files = get_repo_files(project)
 
     if repo_files is None:
       continue
 
-    acronym_dictionary[acronym][project.name] = {}
+    if dictionary[acronym].get(project.name) is None:
+      dictionary[acronym][project.name] = {}
 
-    feign_files = filter_files_by_regex(repo_files, feign_folder_regex)
-    acronym_dictionary[acronym][project.name]['feign'] = feign_data_mapping(project, feign_files)
+      feign_files = filter_files_by_regex(repo_files, feign_folder_regex)
+      dictionary[acronym][project.name]['feign'] = feign_data_mapping(project, feign_files)
 
-    bootstrap_files = filter_files_by_list(repo_files, ['bootstrap.yml'])
-    acronym_dictionary[acronym][project.name]['bootstrap'] = bootstrap_data_mapping(project, bootstrap_files)
+      bootstrap_files = filter_files_by_list(repo_files, ['bootstrap.yml'])
+      dictionary[acronym][project.name]['bootstrap'] = bootstrap_data_mapping(project, bootstrap_files)
 
-    properties_files = filter_files_by_list(repo_files, application_properties_files)
-    acronym_dictionary[acronym][project.name]['application'] = application_properties_data_mapping(project, properties_files)
+      properties_files = filter_files_by_list(repo_files, application_properties_files)
+      dictionary[acronym][project.name]['application'] = application_properties_data_mapping(project, properties_files)
 
-  return acronym_dictionary
+  return dictionary
 
 def main():
   gl = gitlab_api()
-  acronym_dictionary = build_representation(gl, 'conv')
+  acronym_dictionary = load_acronym_dictionary()
 
-  print(acronym_dictionary)
+  if acronym_dictionary is None:
+    acronym_dictionary = {}
+
+  for acronym in fernanda_acronyns:
+    acronym_dictionary = build_representation(api=gl, acronym=acronym, dictionary=acronym_dictionary)
+    save_acronym_dictionary(acronym_dictionary)
 
 if __name__ == '__main__':
   main()

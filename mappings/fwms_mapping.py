@@ -33,6 +33,9 @@ def search_project_files(acronym_list):
     projects_list = gl.projects.list(search="fwms", all=True)
 
     for project in projects_list:
+      if not project.name.endswith('-java'):
+        continue
+
       try:
         repo_files = project.repository_tree(ref='master', recursive=True, all=True)
       except gitlab.exceptions.GitlabGetError as e:
@@ -48,8 +51,12 @@ def search_project_files(acronym_list):
       for file in repo_files:
         file_name = file.get('name')
 
-        if file_name.startswith('acad', 'apio', 'cdps', 'ctas', 'fepw', 'parc', 'rtto', 'tbgr', 'trfo', 'atmo', 'gcen',
-                            'mcsv', 'ctasm') or file_name.has('-corp'):
+        if file_name.endswith('.gitignore') or not file_name.endswith('-corp.properties'):
+          continue
+
+        file_acronym = file_name.replace('-integration.properties', '')
+
+        if file_acronym in (fernanda_project_acronym):
           continue
 
         # if file_name in relevant_files or re.match(feign_regex, file.get('path')):

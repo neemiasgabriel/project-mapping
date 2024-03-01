@@ -5,3 +5,7 @@ feign_folder_regex = r".*/feign/.*\.java"
 feign_url_regex = r"url\s*=\s*(?P<url_text>.*?)(?:,|\))"
 
 bootstrap_regex = r"name\s*:\s*(?P<integrations>.*)"
+
+ignored_files = ['.gitignore', 'README.md', 'Dockerfile', 'Jenkinsfile', 'pom.xml']
+
+fernanda_acronyns = ['acad', 'apio', 'cdps', 'ctas', 'fepw', 'parc', 'rtto', 'tbgr', 'trfo', 'atmo', 'gcen', 'mcsv', 'ctasm']
