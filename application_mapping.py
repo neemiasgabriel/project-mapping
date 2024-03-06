@@ -36,6 +36,15 @@ def add_dictionary_entry(dictionary_mapping, integration, acronym, project):
   if dictionary_mapping[integration][acronym].get(project) is None:
     dictionary_mapping[integration][acronym][project] = []
 
+def delete_dictionary_entry(dictionary_mapping, integration, acronym, project):
+  if len(dictionary_mapping[integration][acronym][project]) == 0:
+    del dictionary_mapping[integration][acronym][project]
+
+  if len(dictionary_mapping[integration][acronym]) == 0:
+    del dictionary_mapping[integration][acronym]
+
+  if len(dictionary_mapping[integration]) == 0:
+    del dictionary_mapping[integration]
 
 def load_file(file_path):
   with open(file_path, 'r') as f:
@@ -87,6 +96,9 @@ def main():
               if file.get('url').startswith(integration):
                 project_mapping_dictionary[integration][acronym][project].append(file.get('url'))
 
+            if project_mapping_dictionary.get(integration) is not None:
+              delete_dictionary_entry(project_mapping_dictionary, integration, acronym, project)
+
       if other_projects_dict[acronym][project]["application"] is None:
         continue
 
@@ -107,6 +119,9 @@ def main():
             project_mapping_dictionary["acad"][acronym][project].append(prd.get('url_text'))
           if prd.get('url_text').startswith(f'{ctas_cluster}/ctas'):
             project_mapping_dictionary["ctas"][acronym][project].append(prd.get('url_text'))
+
+      delete_dictionary_entry(project_mapping_dictionary, "acad", acronym, project)
+      delete_dictionary_entry(project_mapping_dictionary, "ctas", acronym, project)
 
   save_acronym_dictionary(project_mapping_dictionary, 'project_mapping_dictionary')
 
