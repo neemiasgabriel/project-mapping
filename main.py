@@ -11,7 +11,7 @@ from resources import (
   feign_folder_regex,
   feign_url_regex,
   bootstrap_regex,
-  ignored_files
+  ignored_files, other_projects_acronym
 )
 
 load_dotenv()
@@ -47,7 +47,7 @@ def filter_files_by_regex(repo_files, regex):
       file_info = {'name': file_name, 'path': file.get('path')}
       file_filter.append(file_info)
 
-  return file_filter
+  return None if len(file_filter) == 0 else file_filter
 
 def filter_files_by_list(repo_files, relevant_files):
   file_filter = []
@@ -59,7 +59,7 @@ def filter_files_by_list(repo_files, relevant_files):
       file_info = {'name': file_name, 'path': file.get('path')}
       file_filter.append(file_info)
 
-  return file_filter
+  return None if len(file_filter) == 0 else file_filter
 
 def get_repo_files(project):
   repo_files = None
@@ -95,7 +95,7 @@ def feign_data_mapping(project, filtered_list):
       url_text = url_text.replace('"${', '').replace('}"', '')
       data.append({'file': filtered_file.get('name'), 'url': url_text})
 
-  return data
+  return None if len(data) == 0 else data
 
 def application_properties_data_mapping(project, filtered_list):
   file_dictionary = {}
@@ -111,23 +111,28 @@ def application_properties_data_mapping(project, filtered_list):
       if match:
         variable_name = match.group("name")
         url_text = match.group("url_text")
+
+        if variable_name.startswith('#'):
+          continue
+
         file_dictionary[file_name].append({'variable_name': variable_name, 'url_text': url_text})
 
-  return file_dictionary
+    if len(file_dictionary[file_name]) == 0:
+      del file_dictionary[file_name]
+
+  return None if len(file_dictionary) == 0 else file_dictionary
 
 def bootstrap_data_mapping(project, filtered_list):
-  data = []
-
   for filtered_file in filtered_list:
     file_data = get_file_data(project, filtered_file.get('path'))
     match = re.search(bootstrap_regex, file_data, flags=re.DOTALL)
 
     if match:
       integrations = match.group("integrations")
-      integrations = integrations.replace(',', ';')
-      data.append({'integrations': integrations})
+      integrations = integrations.replace(',', ';').replace('\n', '')
+      return integrations
 
-  return data
+  return None
 
 def save_acronym_dictionary(acronym_dictionary):
   with open('files/acronym_dictionary.json', 'w') as f:
@@ -137,7 +142,7 @@ def save_acronym_dictionary(acronym_dictionary):
       print(acronym_dictionary)
 
 def load_acronym_dictionary():
-  with open('files/acronym_dictionary.json', 'r+') as f:
+  with open('files/acronym_dictionary.json', 'a+') as f:
     try:
       return json.load(f)
     except json.decoder.JSONDecodeError:
@@ -162,13 +167,22 @@ def build_representation(api, acronym, dictionary):
       dictionary[acronym][project.name] = {}
 
       feign_files = filter_files_by_regex(repo_files, feign_folder_regex)
-      dictionary[acronym][project.name]['feign'] = feign_data_mapping(project, feign_files)
+
+      if feign_files is not None:
+        dictionary[acronym][project.name]['feign'] = feign_data_mapping(project, feign_files)
 
       bootstrap_files = filter_files_by_list(repo_files, ['bootstrap.yml'])
-      dictionary[acronym][project.name]['bootstrap'] = bootstrap_data_mapping(project, bootstrap_files)
+
+      if bootstrap_files is not None:
+        dictionary[acronym][project.name]['bootstrap'] = bootstrap_data_mapping(project, bootstrap_files)
 
       properties_files = filter_files_by_list(repo_files, application_properties_files)
-      dictionary[acronym][project.name]['application'] = application_properties_data_mapping(project, properties_files)
+
+      if properties_files is not None:
+        result = application_properties_data_mapping(project, properties_files)
+
+        if result is not None:
+          dictionary[acronym][project.name]['application'] = result
 
   return dictionary
 
@@ -179,7 +193,9 @@ def main():
   if acronym_dictionary is None:
     acronym_dictionary = {}
 
-  acronym_dictionary = build_representation(api=gl, acronym='inve', dictionary=acronym_dictionary)
+  for acronym in other_projects_acronym:
+    acronym_dictionary = build_representation(api=gl, acronym=acronym, dictionary=acronym_dictionary)
+
   save_acronym_dictionary(acronym_dictionary)
 
 if __name__ == '__main__':

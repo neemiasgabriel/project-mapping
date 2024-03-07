@@ -1,0 +1,455 @@
+{
+  "conv": {
+    "mcsv-converter-informacoes-cliente-java": {
+      "feign": [
+        {
+          "file": "CustomerDataConsumerFeign.java",
+          "url": "cdps.consultar.informacoes.cliente.java.url"
+        },
+        {
+          "file": "CustomerOperationsConsumerFeign.java",
+          "url": "cdps.operacoes.clientes.java.url"
+        },
+        {
+          "file": "SublimitsCustomerConsumerFeign.java",
+          "url": "glpf.consulta.limites.java.url"
+        }
+      ],
+      "bootstrap": "mcsv-integration; ctcr-integration; cdps-integration; glpf-integration",
+      "application": {
+        "application-dev.properties": [
+          {
+            "variable_name": "original.url.rest.document",
+            "url_text": "vshmsctnprodutos:8101/cmmo-gedc"
+          }
+        ],
+        "application-hml.properties": [
+          {
+            "variable_name": "original.url.rest.document",
+            "url_text": "vshmsctnprodutos:8101/cmmo-gedc"
+          }
+        ],
+        "application-prd.properties": [
+          {
+            "variable_name": "original.url.rest.document",
+            "url_text": "vsmsctnprodutos:8101/cmmo-gedc"
+          }
+        ]
+      }
+    },
+    "mcsv-convenio-guarda-chuva-java": {
+      "application": {
+        "application-dev.properties": [
+          {
+            "variable_name": "url.cdps.customer.path",
+            "url_text": "cdps-consultar-informacoes-cliente-java.apps.ocp-d.original.com.br/v1"
+          },
+          {
+            "variable_name": "url.gagc.product-endpoint",
+            "url_text": "bcodmswrkctn01:8589/gagc-garantias-imoveis-java/v1/products"
+          },
+          {
+            "variable_name": "url.gagc.subproduct-endpoint",
+            "url_text": "bcodmswrkctn01:8589/gagc-garantias-imoveis-java/v1/subproducts/"
+          },
+          {
+            "variable_name": "url.ctas.status-endpoint",
+            "url_text": "bcodmswrkctn01:8642/ctas-validacoes-java/v1/accounts/"
+          },
+          {
+            "variable_name": "url.gagc.goods.endpoint",
+            "url_text": "bcodmswrkctn01:8589/gagc-garantias-imoveis-java/v1/properties/warranties"
+          },
+          {
+            "variable_name": "url.gagc.agreement.search",
+            "url_text": "bcodmswrkctn01:8590/gagc-convenio-guarda-chuva-java/v1/agreements"
+          },
+          {
+            "variable_name": "url.gagc.agreement.byid",
+            "url_text": "bcodmswrkctn01:8590/gagc-convenio-guarda-chuva-java/v1/agreements/"
+          },
+          {
+            "variable_name": "url.gagc.agreement.status",
+            "url_text": "bcodmswrkctn01:8590/gagc-convenio-guarda-chuva-java/v1/agreements/"
+          },
+          {
+            "variable_name": "url.gagc.agreementOperation",
+            "url_text": "bcodmswrkctn01:8590/gagc-convenio-guarda-chuva-java/v1/agreementsOperations/ "
+          },
+          {
+            "variable_name": "url.gagc.convenioguardachuva.inserirdadosconvenio.path",
+            "url_text": "bcodmswrkctn01:8590/gagc-convenio-guarda-chuva-java/v1"
+          },
+          {
+            "variable_name": "url.ged.pesquisar.obterdocumento",
+            "url_text": "gedc-consultas-java.apps.ocp-d.original.com.br/v1/"
+          },
+          {
+            "variable_name": "url.ged.inserir.documento",
+            "url_text": "gedc-inclusao-manutencao-java.apps.ocp-d.original.com.br/v1/"
+          },
+          {
+            "variable_name": "url.gagc.vincular.emprestimo.orq",
+            "url_text": "bcodmswrkctn01:8706/gagc-orq-vinculacao-convenio-guarda-chuva-java/v1"
+          },
+          {
+            "variable_name": "url.get.minutaria",
+            "url_text": "bcodmswrkctn01:8590/gagc-convenio-guarda-chuva-java/v1/"
+          }
+        ],
+        "application-hml.properties": [
+          {
+            "variable_name": "url.cdps.customer.path",
+            "url_text": "cdps-consultar-informacoes-cliente-java.apps.ocp-h.original.com.br/v1"
+          },
+          {
+            "variable_name": "url.gagc.product-endpoint",
+            "url_text": "bcohmswrkctn01:8589/gagc-garantias-imoveis-java/v1/products"
+          },
+          {
+            "variable_name": "url.gagc.subproduct-endpoint",
+            "url_text": "bcohmswrkctn01:8589/gagc-garantias-imoveis-java/v1/subproducts/"
+          },
+          {
+            "variable_name": "url.ctas.status-endpoint",
+            "url_text": "bcohmswrkctn01:8642/ctas-validacoes-java/v1/accounts/"
+          },
+          {
+            "variable_name": "url.gagc.goods.endpoint",
+            "url_text": "bcohmswrkctn01:8589/gagc-garantias-imoveis-java/v1/properties/warranties"
+          },
+          {
+            "variable_name": "url.gagc.agreement.search",
+            "url_text": "bcohmswrkctn01:8590/gagc-convenio-guarda-chuva-java/v1/agreements"
+          },
+          {
+            "variable_name": "url.gagc.agreement.byid",
+            "url_text": "bcohmswrkctn01:8590/gagc-convenio-guarda-chuva-java/v1/agreements/"
+          },
+          {
+            "variable_name": "url.gagc.agreement.status",
+            "url_text": "bcohmswrkctn01:8590/gagc-convenio-guarda-chuva-java/v1/agreements/"
+          },
+          {
+            "variable_name": "url.gagc.agreementOperation",
+            "url_text": "bcohmswrkctn01:8590/gagc-convenio-guarda-chuva-java/v1/agreementsOperations/"
+          },
+          {
+            "variable_name": "url.gagc.convenioguardachuva.inserirdadosconvenio.path",
+            "url_text": "bcohmswrkctn01:8590/gagc-convenio-guarda-chuva-java/v1"
+          },
+          {
+            "variable_name": "url.ged.pesquisar.obterdocumento",
+            "url_text": "gedc-consultas-java.apps.ocp-h.original.com.br/v1/"
+          },
+          {
+            "variable_name": "url.ged.inserir.documento",
+            "url_text": "gedc-inclusao-manutencao-java.apps.ocp-h.original.com.br/v1/"
+          },
+          {
+            "variable_name": "url.gagc.vincular.emprestimo.orq",
+            "url_text": "bcohmswrkctn01:8706/gagc-orq-vinculacao-convenio-guarda-chuva-java/v1"
+          },
+          {
+            "variable_name": "url.get.minutaria",
+            "url_text": "bcohmswrkctn01:8590/gagc-convenio-guarda-chuva-java/v1/"
+          }
+        ],
+        "application-prd.properties": [
+          {
+            "variable_name": "url.cdps.customer.path",
+            "url_text": "cdps-consultar-informacoes-cliente-java.original.com.br/v1"
+          },
+          {
+            "variable_name": "url.gagc.product-endpoint",
+            "url_text": "bcopmswrkctn01:8589/gagc-garantias-imoveis-java/v1/products"
+          },
+          {
+            "variable_name": "url.gagc.subproduct-endpoint",
+            "url_text": "bcopmswrkctn01:8589/gagc-garantias-imoveis-java/v1/subproducts/"
+          },
+          {
+            "variable_name": "url.ctas.status-endpoint",
+            "url_text": "bcopmswrkctn01:8642/ctas-validacoes-java/v1/accounts/"
+          },
+          {
+            "variable_name": "url.gagc.goods.endpoint",
+            "url_text": "bcopmswrkctn01:8589/gagc-garantias-imoveis-java/v1/properties/warranties"
+          },
+          {
+            "variable_name": "url.gagc.agreement.search",
+            "url_text": "bcopmswrkctn01:8590/gagc-convenio-guarda-chuva-java/v1/agreements"
+          },
+          {
+            "variable_name": "url.gagc.agreement.byid",
+            "url_text": "bcopmswrkctn01:8590/gagc-convenio-guarda-chuva-java/v1/agreements/"
+          },
+          {
+            "variable_name": "url.gagc.agreement.status",
+            "url_text": "bcopmswrkctn01:8590/gagc-convenio-guarda-chuva-java/v1/agreements/"
+          },
+          {
+            "variable_name": "url.gagc.agreementOperation",
+            "url_text": "bcopmswrkctn01:8590/gagc-convenio-guarda-chuva-java/v1/agreementsOperations/"
+          },
+          {
+            "variable_name": "url.gagc.convenioguardachuva.inserirdadosconvenio.path",
+            "url_text": "bcopmswrkctn01:8590/gagc-convenio-guarda-chuva-java/v1"
+          },
+          {
+            "variable_name": "url.ged.pesquisar.obterdocumento",
+            "url_text": "gedc-consultas-java.original.com.br/v1/"
+          },
+          {
+            "variable_name": "url.ged.inserir.documento",
+            "url_text": "gedc-inclusao-manutencao-java.original.com.br/v1/"
+          },
+          {
+            "variable_name": "url.gagc.vincular.emprestimo.orq",
+            "url_text": "bcopmswrkctn01:8706/gagc-orq-vinculacao-convenio-guarda-chuva-java/v1"
+          },
+          {
+            "variable_name": "url.get.minutaria",
+            "url_text": "bcopmswrkctn01:8590/gagc-convenio-guarda-chuva-java/v1/"
+          }
+        ]
+      }
+    },
+    "conv-conciliacao-detran-sp-batch-java": {
+      "application": {
+        "application-dev.properties": [
+          {
+            "variable_name": "daycoval.url.base",
+            "url_text": "187.9.76.122:8901/Pagamento/ConsultarPagamento"
+          }
+        ],
+        "application-hml.properties": [
+          {
+            "variable_name": "daycoval.url.base",
+            "url_text": "187.9.76.122:8901/Pagamento/ConsultarPagamento"
+          }
+        ],
+        "application-prd.properties": [
+          {
+            "variable_name": "daycoval.url.base",
+            "url_text": "192.168.33.5:8090/Pagamento/ConsultarPagamento"
+          }
+        ]
+      }
+    },
+    "conv-liquidacoes-detran-java": {
+      "bootstrap": "original-legacy; conv-corp; conv-integration",
+      "application": {
+        "application-dev.properties": [
+          {
+            "variable_name": "daycoval.url.base",
+            "url_text": "187.9.76.122:8901"
+          }
+        ],
+        "application-hml.properties": [
+          {
+            "variable_name": "daycoval.url.base",
+            "url_text": "187.9.76.122:8901"
+          }
+        ],
+        "application-prd.properties": [
+          {
+            "variable_name": "daycoval.url.base",
+            "url_text": "192.168.33.5:8090"
+          }
+        ]
+      }
+    }
+  },
+  "cess": {
+    "ctas-migracao-processa-saldo-java": {
+      "bootstrap": "ctas-corp; ctas-integration; original-legacy; fwcl-corp"
+    },
+    "mcsv-interno-consulta-cessao-credito-java": {
+      "feign": [
+        {
+          "file": "CreditInstalmentFeign.java",
+          "url": "cess.consulta.transacoes.java.url"
+        }
+      ],
+      "bootstrap": "mcsv-integration; cess-integration; cnio-corp; acpf-integration; mcsv-integration; atcl-integration"
+    },
+    "pgto-processamento-arquivo-remessa-batch-java": {},
+    "ctas-reprocessamento-lancamentos-efetivar-batch-java": {},
+    "mcsv-liveness-acesso-digital-java": {
+      "application": {
+        "application-dev.properties": [
+          {
+            "variable_name": "liveness.integracao.server.url",
+            "url_text": "bcodmswrk01:8329/reip-integracao-acesso-java/v1"
+          }
+        ],
+        "application-hml.properties": [
+          {
+            "variable_name": "liveness.integracao.server.url",
+            "url_text": "reip-integracao-acesso-java.reip-hml.svc.cluster.local:8080"
+          },
+          {
+            "variable_name": "br.com.original.token.authentication.url",
+            "url_text": "atco-auth-sistemas-java.atco-hml.svc.cluster.local:8080/v1/token"
+          }
+        ],
+        "application-prd.properties": [
+          {
+            "variable_name": "liveness.integracao.server.url",
+            "url_text": "reip-integracao-acesso-java.reip.svc.cluster.local:8080"
+          },
+          {
+            "variable_name": "br.com.original.token.authentication.url",
+            "url_text": "atco-auth-sistemas-java.atco.svc.cluster.local:8080/v1/token"
+          }
+        ]
+      }
+    },
+    "pgto-reprocessamento-baixa-boletos-batch-java": {},
+    "rtto-process-agreement-massive-batch-java": {},
+    "mcsv-pagamentos-pix-java": {
+      "application": {
+        "application-dev.properties": [
+          {
+            "variable_name": "aspa.service.url",
+            "url_text": "NLB-homolog-c4196743f986d386.elb.sa-east-1.amazonaws.com:2049/aspa-configuracao-psti-java/v1/parameter/filter"
+          },
+          {
+            "variable_name": "orquestrador.payment",
+            "url_text": "pgto-transferencias-bacen-java.pgto-dev.svc.cluster.local:8080"
+          },
+          {
+            "variable_name": "orquestrador.payment-novo",
+            "url_text": "pgto-transferencia-pix-java.pgto-dev.svc.cluster.local:8080"
+          },
+          {
+            "variable_name": "microservice.qrcode",
+            "url_text": "pgto-qr-code-java.pgto-dev.svc.cluster.local:8080"
+          },
+          {
+            "variable_name": "aspa.service.url",
+            "url_text": "NLB-homolog-c4196743f986d386.elb.sa-east-1.amazonaws.com:2049/aspa-configuracao-psti-java/v1/parameter/filter"
+          },
+          {
+            "variable_name": "microservice.balance",
+            "url_text": "ctas-saldo-java.ctas-dev.svc.cluster.local:8080"
+          },
+          {
+            "variable_name": "microservice.status",
+            "url_text": "pgto-status-pagamentos-java.pgto-dev.svc.cluster.local:8080"
+          },
+          {
+            "variable_name": "microservice.receipt",
+            "url_text": "pgto-comprovantes-pagamentos-java.pgto-dev.svc.cluster.local:8080"
+          },
+          {
+            "variable_name": "microservice.last_transfers",
+            "url_text": "intp-comprovantes-pagamentos-java.intp-dev.svc.cluster.local:8080"
+          },
+          {
+            "variable_name": "microservice.transaction.limit",
+            "url_text": "pgto-transferencias-bacen-java.pgto-dev.svc.cluster.local:8080"
+          },
+          {
+            "variable_name": "microservice.transaction.limit3",
+            "url_text": "lipe-transacoes-java.lipe-dev.svc.cluster.local:8080"
+          }
+        ],
+        "application-hml.properties": [
+          {
+            "variable_name": "aspa.service.url",
+            "url_text": "NLB-homolog-c4196743f986d386.elb.sa-east-1.amazonaws.com:2049/aspa-configuracao-psti-java/v1/parameter/filter"
+          },
+          {
+            "variable_name": "orquestrador.payment",
+            "url_text": "pgto-transferencias-bacen-java.pgto-hml.svc.cluster.local:8080"
+          },
+          {
+            "variable_name": "orquestrador.payment-novo",
+            "url_text": "pgto-transferencia-pix-java.pgto-hml.svc.cluster.local:8080"
+          },
+          {
+            "variable_name": "aspa.service.url",
+            "url_text": "NLB-homolog-c4196743f986d386.elb.sa-east-1.amazonaws.com:2049/aspa-configuracao-psti-java/v1/parameter/filter"
+          },
+          {
+            "variable_name": "microservice.qrcode",
+            "url_text": "pgto-qr-code-java.pgto-hml.svc.cluster.local:8080"
+          },
+          {
+            "variable_name": "microservice.balance",
+            "url_text": "ctas-saldo-java.ctas-hml.svc.cluster.local:8080"
+          },
+          {
+            "variable_name": "microservice.status",
+            "url_text": "pgto-status-pagamentos-java.pgto-hml.svc.cluster.local:8080"
+          },
+          {
+            "variable_name": "microservice.receipt",
+            "url_text": "pgto-comprovantes-pagamentos-java.pgto-hml.svc.cluster.local:8080"
+          },
+          {
+            "variable_name": "microservice.last_transfers",
+            "url_text": "intp-comprovantes-pagamentos-java.intp-hml.svc.cluster.local:8080"
+          },
+          {
+            "variable_name": "microservice.transaction.limit",
+            "url_text": "pgto-transferencias-bacen-java.pgto-hml.svc.cluster.local:8080"
+          },
+          {
+            "variable_name": "microservice.transaction.limit3",
+            "url_text": "lipe-transacoes-java.lipe-hml.svc.cluster.local:8080"
+          }
+        ],
+        "application-prd.properties": [
+          {
+            "variable_name": "aspa.service.url",
+            "url_text": "NLB-production-d2f4ae9c4ba4e07b.elb.sa-east-1.amazonaws.com:2049/aspa-configuracao-psti-java/v1/parameter/filter"
+          },
+          {
+            "variable_name": "orquestrador.payment",
+            "url_text": "pgto-transferencias-bacen-java.pgto.svc.cluster.local:8080"
+          },
+          {
+            "variable_name": "orquestrador.payment-novo",
+            "url_text": "pgto-transferencia-pix-java.pgto.svc.cluster.local:8080"
+          },
+          {
+            "variable_name": "microservice.qrcode",
+            "url_text": "pgto-qr-code-java.pgto.svc.cluster.local:8080"
+          },
+          {
+            "variable_name": "aspa.service.url",
+            "url_text": "NLB-production-d2f4ae9c4ba4e07b.elb.sa-east-1.amazonaws.com:2049/aspa-configuracao-psti-java/v1/parameter/filter"
+          },
+          {
+            "variable_name": "microservice.balance",
+            "url_text": "ctas-saldo-java.ctas.svc.cluster.local:8080"
+          },
+          {
+            "variable_name": "microservice.status",
+            "url_text": "pgto-status-pagamentos-java.pgto.svc.cluster.local:8080"
+          },
+          {
+            "variable_name": "microservice.receipt",
+            "url_text": "pgto-comprovantes-pagamentos-java.pgto.svc.cluster.local:8080"
+          },
+          {
+            "variable_name": "microservice.last_transfers",
+            "url_text": "intp-comprovantes-pagamentos-java.intp.svc.cluster.local:8080"
+          },
+          {
+            "variable_name": "microservice.transaction.limit",
+            "url_text": "pgto-transferencias-bacen-java.pgto.svc.cluster.local:8080"
+          },
+          {
+            "variable_name": "microservice.transaction.limit3",
+            "url_text": "lipe-transacoes-java.lipe.svc.cluster.local:8080"
+          }
+        ]
+      }
+    },
+    "ctas-accounts-to-process-agreement-batch-java": {}
+  }
+}

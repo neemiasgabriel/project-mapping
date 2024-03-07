@@ -61,7 +61,7 @@ def save_acronym_dictionary(projects_dict, file_name):
       print(projects_dict)
 
 def main():
-  other_projects_dict = load_file('files/other_projects_dictionary.json')
+  other_projects_dict = load_file('files/other_projects_list.json')
   fwms_dictionary = load_file('files/fwms_dictionary.json')
   project_mapping_dictionary = {}
 
@@ -77,9 +77,8 @@ def main():
       add_dictionary_entry(project_mapping_dictionary, "acad", acronym, project)
       add_dictionary_entry(project_mapping_dictionary, "ctas", acronym, project)
 
-      if len(bootstrap) != 0:
-        integrations = bootstrap[0].get('integrations')
-        integrations = integrations.split(';')
+      if bootstrap is not None:
+        integrations = bootstrap.split(';')
 
         for integration in integrations:
           integration = integration.strip().replace('-integration', '')
@@ -90,16 +89,17 @@ def main():
 
         feign = other_projects_dict[acronym][project].get('feign')
 
-        if len(feign) != 0:
+        if feign is not None:
           for integration in valid_integrations:
             for file in feign:
               if file.get('url').startswith(integration):
                 project_mapping_dictionary[integration][acronym][project].append(file.get('url'))
 
-            if project_mapping_dictionary.get(integration) is not None:
-              delete_dictionary_entry(project_mapping_dictionary, integration, acronym, project)
+        for integration in valid_integrations:
+          if project_mapping_dictionary.get(integration) is not None:
+            delete_dictionary_entry(project_mapping_dictionary, integration, acronym, project)
 
-      if other_projects_dict[acronym][project]["application"] is None:
+      if other_projects_dict[acronym][project].get("application") is None:
         continue
 
       application_prd = other_projects_dict[acronym][project]["application"].get("application-prd.properties")
@@ -123,7 +123,7 @@ def main():
       delete_dictionary_entry(project_mapping_dictionary, "acad", acronym, project)
       delete_dictionary_entry(project_mapping_dictionary, "ctas", acronym, project)
 
-  save_acronym_dictionary(project_mapping_dictionary, 'project_mapping_dictionary')
+  save_acronym_dictionary(project_mapping_dictionary, 'project_mapping_dictionary2')
 
 
 if __name__ == '__main__':

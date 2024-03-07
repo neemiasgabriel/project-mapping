@@ -1,0 +1,355 @@
+{
+  "acad": {
+    "conv": {
+      "mcsv-converter-informacoes-cliente-java": null,
+      "mcsv-convenio-guarda-chuva-java": null,
+      "conv-conciliacao-detran-sp-batch-java": null,
+      "conv-liquidacoes-detran-java": null
+    },
+    "pgto": {
+      "pgto-ordem-pagamento-pix-java": null,
+      "pgto-acmp-615-boletos-batch-java": [],
+      "pgto-concilia-cancela-baixa-pagfor-batch-java": [],
+      "pgto-consumidor-estorno-baixa-titulos-java": [],
+      "pgto-cancela-baixa-titulos-pagfor-java": null,
+      "pgto-retorno-baixa-batch-java": [],
+      "pgto-estornar-baixa-titulos-java": [],
+      "pgto-consulta-titulos-java": null,
+      "pgto-captura-resposta-baixa-titulos-java": [],
+      "pgto-consumidor-status-baixa-titulos-java": [],
+      "pgto-solicita-baixa-titulos-java": null,
+      "pgto-canal-comprovante-java": [],
+      "pgto-cancela-agendamento-cartao-batch-java": [],
+      "pgto-transferencia-pix-java": null,
+      "pgto-favorecidos-pagamentos-java": null,
+      "pgto-consumidor-baixa-boleto-vr-java": null,
+      "pgto-conciliacao-estorno-boleto-batch-java": [],
+      "pgto-produtor-baixa-boleto-vr-java": [],
+      "pgto-produtor-baixa-boleto-compe-java": [],
+      "pgto-consumidor-estorno-boleto-java": [],
+      "pgto-estorno-boleto-batch-java": [],
+      "pgto-processamento-arquivo-remessa-batch-java": [],
+      "pgto-qr-code-java": null,
+      "pgto-canal-comprovante-parceiro-java": [],
+      "pgto-monitorar-pagamentos-batch-java": [],
+      "pgto-pag-original-java": [],
+      "pgto-consumidor-iniciador-pagamentos-java": [],
+      "pgto-iniciador-pagamentos-java": [],
+      "pgto-codigo-barras-boleto-java": [],
+      "pgto-consumidor-pix-recebido-java": null,
+      "pgto-agendamentos-pix-java": null,
+      "pgto-consumidor-agendamentos-pix-java": null,
+      "pgto-agendamentos-pix-batch-java": null,
+      "pgto-notificacao-previa-agendamentos-pix-batch-java": [],
+      "pgto-valida-retorno-debito-automatico-batch-java": [],
+      "ctas-migrar-conta-pgto-movimentacao-batch-java": [],
+      "pgto-consumidor-liquidacao-consumo-tributos-erro-java": [],
+      "pgto-liquidacao-consumo-tributos-batch-java": [],
+      "pgto-liquidacoes-detran-java": [],
+      "pgto-grade-horaria-java": [],
+      "pgto-consumidor-transacoes-pix-varejo-java": null,
+      "pgto-produtor-transacoes-pix-varejo-java": null,
+      "pgto-reprocessamento-baixa-boletos-batch-java": [],
+      "pgto-cobranca-titulos-java": null,
+      "pgto-consumidor-baixa-boleto-proprio-java": [],
+      "pgto-produtor-baixa-boleto-proprio-java": [],
+      "pgto-prepara-comprovante-java": null,
+      "pgto-folha-pagamento-java": null,
+      "pgto-consumidor-ctrl-sit-java": [],
+      "pgto-consumidor-compv-pgto-java": [],
+      "pgto-consumidor-pgto-eft-java": [],
+      "pgto-consumidor-intp-soltc-java": [],
+      "pgto-consumidor-ctas-log-mov-java": [],
+      "pgto-consumidor-ctas-trnsf-java": [],
+      "pgto-liquidacao-agendamento-ted-batch-java": [],
+      "pgto-retorno-agendamento-ted-batch-java": [],
+      "pgto-orquestrador-boletos-java": [],
+      "pgto-consumidor-baixa-boleto-java": [],
+      "pgto-consumidor-debitos-efetivados-java": [],
+      "pgto-consumidor-tabelas-sincronizacao-batch-java": null,
+      "pgto-filtrar-ted-parcerias-java": null,
+      "pgto-tef-enriquecida-java": null,
+      "pgto-filtrar-tef-parcerias-java": null,
+      "pgto-notificacoes-nao-recebidas-parceiros-java": [],
+      "pgto-notificacao-parceiro-java": null,
+      "pgto-consultar-transacoes-parceiro-java": [],
+      "pgto-consumidor-erros-tributos-consumos-java": null,
+      "pgto-integracao-conciliacao-bancoob-batch-java": null,
+      "pgto-transferencias-parceiro-java": null,
+      "pgto-consumer-tef-parceiro-java": null,
+      "pgto-consumer-ted-parceiro-java": null,
+      "pgto-consumer-devolucao-parceiro-java": null,
+      "pgto-recebimento-tributos-consumos-java": [],
+      "pgto-liquidar-tributos-consumos-java": null,
+      "pgto-cmm-rest-java": [],
+      "pgto-credito-imediato-cmm-rest-java": null,
+      "pgto-tratar-retorno-folha-pagamento-java": null,
+      "pgto-status-abertura-conta-salario-batch-java": [],
+      "pgto-relatorio-contas-2025-batch-java": [],
+      "pgto-recibos-java": [],
+      "pgto-portabilidade-salario-java": [],
+      "pgto-portabilidade-salario-2025-batch-java": [],
+      "pgto-transferencias-java": null,
+      "pgto-status-pagamentos-java": [],
+      "pgto-comprovantes-pagamentos-java": null,
+      "pgto-conciliacao-pagamentos\u200b-parceiros-batch-java": [],
+      "pgto-boletos-java": null,
+      "pgto-callback-ted-java": [],
+      "pgto-enviar-ted-java": [],
+      "pgto-comprovante-ted-java": [],
+      "pgto-retornar-status-ted-lote-java": [],
+      "pgto-registros-ted-lote-java": null,
+      "pgto-transferencias-bacen-java": null,
+      "pgto-servicos-cmm-java": null,
+      "pgto-comprovantes-java": [],
+      "pgto-codigo-barras-java": null
+    },
+    "port": {
+      "ctas-portabilidade-salario-batch-java": [],
+      "mcsv-portabilidade-previdencia-java": null,
+      "pgto-portabilidade-salario-java": [],
+      "pgto-portabilidade-salario-2025-batch-java": []
+    },
+    "atcl": {
+      "atcl-autenticacao-teclado-virtual-java": null
+    },
+    "bpmo": {
+      "mcsv-interno-consultas-bpmo-java": [],
+      "mcsv-interno-atividades-bpmo-java": null
+    },
+    "gedc": {
+      "gedc-gedcontrollerservices-java": [],
+      "gedc-gedcontrollerminutaria-java": []
+    },
+    "pvld": {
+      "mcsv-relatorio-visitas-pvld-java": null
+    },
+    "cess": {
+      "ctas-migracao-processa-saldo-java": [],
+      "mcsv-interno-consulta-cessao-credito-java": [],
+      "pgto-processamento-arquivo-remessa-batch-java": [],
+      "ctas-reprocessamento-lancamentos-efetivar-batch-java": [],
+      "mcsv-liveness-acesso-digital-java": null,
+      "pgto-reprocessamento-baixa-boletos-batch-java": [],
+      "rtto-process-agreement-massive-batch-java": [],
+      "mcsv-pagamentos-pix-java": null,
+      "ctas-accounts-to-process-agreement-batch-java": []
+    },
+    "intr": {
+      "intr-permissao-optin-java": []
+    },
+    "inve": {
+      "mcsv-carteira-investimentos-java": null,
+      "mcsv-informacoes-investidor-java": null,
+      "mcsv-renovacao-automatica-investimentos-java": null,
+      "mcsv-interno-investimentos-java": [],
+      "mcsv-investimentos-fundos-java": null,
+      "mcsv-pj-investimentos-java": null
+    },
+    "prev": {
+      "mcsv-resgate-previdencia-java": null,
+      "mcsv-portabilidade-previdencia-java": null,
+      "pgto-notificacao-previa-agendamentos-pix-batch-java": [],
+      "mcsv-contratacao-previdencia-java": null,
+      "mcsv-interno-previdencia-java": null
+    }
+  },
+  "ctas": {
+    "conv": {
+      "mcsv-converter-informacoes-cliente-java": null,
+      "mcsv-convenio-guarda-chuva-java": [
+        "bcopmswrkctn01:8642/ctas-validacoes-java/v1/accounts/"
+      ],
+      "conv-conciliacao-detran-sp-batch-java": null,
+      "conv-liquidacoes-detran-java": null
+    },
+    "pgto": {
+      "pgto-ordem-pagamento-pix-java": null,
+      "pgto-acmp-615-boletos-batch-java": [],
+      "pgto-concilia-cancela-baixa-pagfor-batch-java": [],
+      "pgto-consumidor-estorno-baixa-titulos-java": [],
+      "pgto-cancela-baixa-titulos-pagfor-java": null,
+      "pgto-retorno-baixa-batch-java": [],
+      "pgto-estornar-baixa-titulos-java": [],
+      "pgto-consulta-titulos-java": null,
+      "pgto-captura-resposta-baixa-titulos-java": [],
+      "pgto-consumidor-status-baixa-titulos-java": [],
+      "pgto-solicita-baixa-titulos-java": null,
+      "pgto-canal-comprovante-java": [],
+      "pgto-cancela-agendamento-cartao-batch-java": [],
+      "pgto-transferencia-pix-java": null,
+      "pgto-favorecidos-pagamentos-java": null,
+      "pgto-consumidor-baixa-boleto-vr-java": null,
+      "pgto-conciliacao-estorno-boleto-batch-java": [],
+      "pgto-produtor-baixa-boleto-vr-java": [],
+      "pgto-produtor-baixa-boleto-compe-java": [],
+      "pgto-consumidor-estorno-boleto-java": null,
+      "pgto-estorno-boleto-batch-java": [],
+      "pgto-processamento-arquivo-remessa-batch-java": [],
+      "pgto-qr-code-java": null,
+      "pgto-canal-comprovante-parceiro-java": [],
+      "pgto-monitorar-pagamentos-batch-java": [],
+      "pgto-pag-original-java": [],
+      "pgto-consumidor-iniciador-pagamentos-java": [],
+      "pgto-iniciador-pagamentos-java": null,
+      "pgto-codigo-barras-boleto-java": [],
+      "pgto-consumidor-pix-recebido-java": null,
+      "pgto-agendamentos-pix-java": null,
+      "pgto-consumidor-agendamentos-pix-java": null,
+      "pgto-agendamentos-pix-batch-java": null,
+      "pgto-notificacao-previa-agendamentos-pix-batch-java": [],
+      "pgto-valida-retorno-debito-automatico-batch-java": [],
+      "ctas-migrar-conta-pgto-movimentacao-batch-java": [],
+      "pgto-consumidor-liquidacao-consumo-tributos-erro-java": [],
+      "pgto-liquidacao-consumo-tributos-batch-java": [],
+      "pgto-liquidacoes-detran-java": null,
+      "pgto-grade-horaria-java": [],
+      "pgto-consumidor-transacoes-pix-varejo-java": null,
+      "pgto-produtor-transacoes-pix-varejo-java": null,
+      "pgto-reprocessamento-baixa-boletos-batch-java": [],
+      "pgto-cobranca-titulos-java": null,
+      "pgto-consumidor-baixa-boleto-proprio-java": [],
+      "pgto-produtor-baixa-boleto-proprio-java": [],
+      "pgto-prepara-comprovante-java": null,
+      "pgto-folha-pagamento-java": null,
+      "pgto-consumidor-ctrl-sit-java": [],
+      "pgto-consumidor-compv-pgto-java": [],
+      "pgto-consumidor-pgto-eft-java": [],
+      "pgto-consumidor-intp-soltc-java": [],
+      "pgto-consumidor-ctas-log-mov-java": [],
+      "pgto-consumidor-ctas-trnsf-java": [],
+      "pgto-liquidacao-agendamento-ted-batch-java": [],
+      "pgto-retorno-agendamento-ted-batch-java": [],
+      "pgto-orquestrador-boletos-java": null,
+      "pgto-consumidor-baixa-boleto-java": [],
+      "pgto-consumidor-debitos-efetivados-java": [],
+      "pgto-consumidor-tabelas-sincronizacao-batch-java": null,
+      "pgto-filtrar-ted-parcerias-java": null,
+      "pgto-tef-enriquecida-java": null,
+      "pgto-filtrar-tef-parcerias-java": null,
+      "pgto-notificacoes-nao-recebidas-parceiros-java": [],
+      "pgto-notificacao-parceiro-java": null,
+      "pgto-consultar-transacoes-parceiro-java": [],
+      "pgto-integracao-conciliacao-bancoob-batch-java": null,
+      "pgto-transferencias-parceiro-java": null,
+      "pgto-consumer-tef-parceiro-java": null,
+      "pgto-consumer-ted-parceiro-java": null,
+      "pgto-consumer-devolucao-parceiro-java": null,
+      "pgto-recebimento-tributos-consumos-java": [],
+      "pgto-liquidar-tributos-consumos-java": null,
+      "pgto-cmm-rest-java": [
+        "ctas.cmm.rest.java.url"
+      ],
+      "pgto-credito-imediato-cmm-rest-java": null,
+      "pgto-tratar-retorno-folha-pagamento-java": null,
+      "pgto-status-abertura-conta-salario-batch-java": [],
+      "pgto-relatorio-contas-2025-batch-java": [],
+      "pgto-recibos-java": [],
+      "pgto-portabilidade-salario-java": [],
+      "pgto-portabilidade-salario-2025-batch-java": [],
+      "pgto-transferencias-java": null,
+      "pgto-status-pagamentos-java": [],
+      "pgto-comprovantes-pagamentos-java": null,
+      "pgto-conciliacao-pagamentos\u200b-parceiros-batch-java": [],
+      "pgto-boletos-java": null,
+      "pgto-callback-ted-java": null,
+      "pgto-enviar-ted-java": null,
+      "pgto-comprovante-ted-java": [],
+      "pgto-retornar-status-ted-lote-java": [],
+      "pgto-registros-ted-lote-java": null,
+      "pgto-transferencias-bacen-java": null,
+      "pgto-servicos-cmm-java": null,
+      "pgto-comprovantes-java": [],
+      "pgto-codigo-barras-java": null
+    },
+    "port": {
+      "ctas-portabilidade-salario-batch-java": [],
+      "mcsv-portabilidade-previdencia-java": null,
+      "pgto-portabilidade-salario-java": [],
+      "pgto-portabilidade-salario-2025-batch-java": []
+    },
+    "atcl": {
+      "atcl-autenticacao-teclado-virtual-java": null
+    },
+    "bpmo": {
+      "mcsv-interno-consultas-bpmo-java": [],
+      "mcsv-interno-atividades-bpmo-java": null
+    },
+    "gedc": {
+      "gedc-gedcontrollerservices-java": [],
+      "gedc-gedcontrollerminutaria-java": []
+    },
+    "pvld": {
+      "mcsv-relatorio-visitas-pvld-java": null
+    },
+    "cess": {
+      "ctas-migracao-processa-saldo-java": null,
+      "mcsv-interno-consulta-cessao-credito-java": [],
+      "pgto-processamento-arquivo-remessa-batch-java": [],
+      "ctas-reprocessamento-lancamentos-efetivar-batch-java": [],
+      "mcsv-liveness-acesso-digital-java": null,
+      "pgto-reprocessamento-baixa-boletos-batch-java": [],
+      "rtto-process-agreement-massive-batch-java": [],
+      "mcsv-pagamentos-pix-java": null,
+      "ctas-accounts-to-process-agreement-batch-java": []
+    },
+    "intr": {
+      "intr-permissao-optin-java": []
+    },
+    "inve": {
+      "mcsv-carteira-investimentos-java": null,
+      "mcsv-informacoes-investidor-java": null,
+      "mcsv-renovacao-automatica-investimentos-java": null,
+      "mcsv-interno-investimentos-java": [],
+      "mcsv-investimentos-fundos-java": null,
+      "mcsv-pj-investimentos-java": null
+    },
+    "prev": {
+      "mcsv-resgate-previdencia-java": null,
+      "mcsv-portabilidade-previdencia-java": null,
+      "pgto-notificacao-previa-agendamentos-pix-batch-java": [],
+      "mcsv-contratacao-previdencia-java": null,
+      "mcsv-interno-previdencia-java": null
+    }
+  },
+  "mcsv": {
+    "conv": {
+      "mcsv-converter-informacoes-cliente-java": null
+    },
+    "pgto": {
+      "pgto-cmm-rest-java": null
+    },
+    "bpmo": {
+      "mcsv-interno-consultas-bpmo-java": null,
+      "mcsv-interno-atividades-bpmo-java": null
+    },
+    "inve": {
+      "mcsv-interno-investimentos-java": null
+    }
+  },
+  "cdps": {
+    "conv": {
+      "mcsv-converter-informacoes-cliente-java": [
+        "cdps.consultar.informacoes.cliente.java.url",
+        "cdps.operacoes.clientes.java.url"
+      ]
+    },
+    "pgto": {
+      "pgto-consumidor-iniciador-pagamentos-java": null,
+      "pgto-orquestrador-boletos-java": null,
+      "pgto-callback-ted-java": null,
+      "pgto-enviar-ted-java": null
+    }
+  },
+  "tbgr": {
+    "pgto": {
+      "pgto-codigo-barras-boleto-java": null,
+      "pgto-grade-horaria-java": null,
+      "pgto-orquestrador-boletos-java": null,
+      "pgto-boletos-java": null,
+      "pgto-callback-ted-java": null,
+      "pgto-enviar-ted-java": null,
+      "pgto-comprovantes-java": null
+    }
+  }
+}
